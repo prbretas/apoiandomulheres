@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/*******VARIAVEIS DE CORES*******/
+
+:root {
+  --maincolor: rgb(64, 55, 70);
+  --maincolortransp: rgba(108, 0, 141, 0.548);
+  --maincolor2: rgb(255, 255, 255);
+  --maincolor3: rgba(56, 0, 94, 0.795);
+  
+  --text-color: rgb(255, 255, 255);
+  --hovertext-color: rgb(185, 133, 196);
+
+  --box-bg1-color:rgb(47, 16, 68) ;
+  --box-bg2-color: rgba(211, 172, 236, 0.644);
+
+  --border-color: rgb(192, 0, 218);
+
+  --button-enviar-login: rgb(111, 0, 145);
+  --button-border-login: rgb(75, 0, 124);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  background: url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+  background-size: cover;
+}
+
+/*******************  HEADER  *****************************/
+.logoHeader {
+  padding: 10px 30px;
+  width: 110px;
+}
+
+.headercolor {
+  background-color: var(--maincolor);
+  color: var(--hovertext-color);
+  filter: drop-shadow(0 0 6px black);
+}
+
+/******************MENU DROP********************/
+
+.dropdown-menu {
+  width: 220px;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: var(--maincolor3);
+  color: white;
+}
+
+/**************** HOVER MENU *****************************/
+
+.navItemhvr {
+  color: var(--maincolor2);
+}
+
+.navItemhvr:hover {
+  color: var(--hovertext-color);
+}
+
+/************MARGIN TOP PRA ACERTAR O HEADER*********************/
+
+.mainConfig {
+  margin-top: 70px;
+}
+
+/***************CAROUSEL****************************/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********FOOTER ***************/
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #ffffff;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #ffffff;
+}
+
+footer {
+  background: var(--maincolor);
+  color: var(--text-color);
+}
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+body,
+html {
+  height: 100%;
+}
+
+/***************SECTION SOBRE*************/
+
+h1,
+h2 {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h3,
+h4 {
+  padding-top: 40px;
+  text-align: center;
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+h5 {
+  padding-top: 80px;
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  font: 20px;
+  text-align: center;
+}
+
+.p01 {
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  padding-right: 80px;
+  font-size: 18px;
+  padding-left: 400px;
+  padding-top: 20px;
+}
+
+.img01 {
+  float: left;
+  width: 470px;
+  height: 340px;
+  margin-right: 50px;
+  box-shadow: 0 0 5px #000000d2;
+  margin-left: 50px;
+}
+
+/***************************BOTAO ENVIAR SECTION SOBRE ******************/
+
+/* From uiverse.io */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #cf5e5e;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+.botaoenviar {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/**************************SECTION 2 TIPOS DE ABUSO *************/
+
+.SectionTiposDeAbuso {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  
+}
+
+.imgbox {
+  width: 350px;
+  height: 260px;
+  box-shadow: 0 0 5px #00000098;
+}
+
+.divAbusos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
+
+
+}
+
+.item-box {
+ width: 400px;
+ text-align: justify;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.item-box h2 {
+margin-top: 20px;
+
+}
+
+
+
+/***************************   SECTION 3  ******************************/
+
+.img03 {
+  margin-top: 130px;
+  box-shadow: 10px 10px 5px #23232e1c;
+  margin-left: 30px;
+}
+
+.container02 {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+  padding-top: 50px;
+}
+
+.body03 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+}
+
+.p03 {
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/***********CARDS*********/
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card > div {
+  padding: 2rem;
+}

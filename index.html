@@ -16,7 +16,7 @@
 
 
 <!--LINKS STYLE CSS-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="indexStyle.css">
 
 
 
@@ -58,7 +58,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link navItemhvr" href="./index.html">Home</a>
+          <a class="nav-link navItemhvr" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link navItemhvr" href="./about.html">Sobre</a>
@@ -100,7 +100,12 @@
 
 
 
-<main class="mainConfig">
+
+
+
+  <!-----------------------------------CARROSSEL---------------------------->
+<Section class="mainConfig">
+
 
    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -109,19 +114,22 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url(./img1.jpg); ">
+      <div class="carousel-item active" style="background-image: url(./carrossel1.jpg); ">
         <div class="carousel-caption">
+
+        
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
-        </div>
+
+         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('./mainpag3.jpg')">
+      <div class="carousel-item" style="background-image: url('./carrossel2.jpg')">
         <div class="carousel-caption">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('./MAIN1.jpg');background-position: center;">
+      <div class="carousel-item" style="background-image: url('./carrossel3.jpg');background-position: center;">
         <div class="carousel-caption">
           <h5>Third slide label</h5>
           <p>Some representative placeholder content for the third slide.</p>
@@ -137,7 +145,9 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</main>
+
+</Section>
+
 
 
 
@@ -146,7 +156,7 @@
 
 <!------------------------------------SECTION 1 - SOBRE--------------------------------->
 
-
+<section class="Section1">
 
 <h5>SOBRE</h5>
 <h3>Violência contra Mulher</h3>
@@ -160,7 +170,7 @@
     <p class="p01">Central de Atendimento à Mulher</p> <br> 
     
     <div class="botaoenviar">
-    <a href="https://www.mulhersegura.org/preciso-de-ajuda/ligue-180-central-de-atendimento-a-mulher" target="_blank"><button class="learn-more">
+    <a href="https://www.mpsc.mp.br/campanhas/ligue-180" target="_blank"><button class="learn-more">
         <span class="circle" aria-hidden="true">
         <span class="icon arrow"></span>
         </span>
@@ -169,24 +179,28 @@
     
     </div>
 
+
+</section>
+
 <hr>
 <!----------------------------SECTION 2 - ------------------->
 
-<section class="sect2">
-  <h5>A IMPORTÂNCIA DE</h5>
-  <h4>Identificar os tipos de agressão:</h4>
-  <section class="divboxs">
+<section class="SectionTiposDeAbuso">
+
+  <h2>A importância de identificar os tipos de agressão:</h2>
+
+  <div class="divAbusos">
    
    
-      <div class="item-box-1">
-          <img class="imgbox" src="./pexels-karolina-grabowska-4379892.jpg" >
+      <div class="item-box">
+          <img class="imgbox" src="./violencia fisica.webp" >
           <h2>ABUSO FISÍCO</h2>
           <p>Abuso físico é o abuso que envolve contacto físico com a intenção de infligir medo, dor, outro tipo de sofrimento físico ou lesões corporais.As dinâmicas de abusos físicos no contexto familiar são muitas vezes complexas. A violência física pode ser o culminar de outros tipos de comportamento abusivo, como ameaças, intimidação e limitação da auto-determinação da vítima através do isolamento forçado, manipulação e outras limitações da liberdade pessoal.</p>
       </div>
   
 
-      <div class="item-box-2">
-          <img class="imgbox" src="./pexels-kat-smith-568021.jpg" >
+      <div class="item-box">
+          <img class="imgbox" src="./help.jpg" >
           <h2>ABUSO SEXUAL</h2>
           <p>A Organização Mundial de Saúde define abuso sexual como qualquer ato sexual, tentativa de obter um ato sexual, abordagens ou comentários de cariz sexual indesejados ou tráfico sexual direcionados contra determinada pessoa por meio de coerção.</p>
 
@@ -194,13 +208,14 @@
       </div>
 
 
-      <div class="item-box-3"> 
-          <img class="imgbox" src="img4.jpg" >
+      <div class="item-box"> 
+          <img class="imgbox" src="violencia psicologica.webp" >
+         
           <h2>ABUSO PSICOLÓGICO</h2>
-          <p>Abuso psicológico ou abuso emocional é um padrão de comportamento com o objetivo de ameaçar, intimidar, desumanizar ou sistematicamente debilitar a auto-estima de outra pessoa.A Convenção do Conselho da Europa para a Prevenção e o Combate à Violência Contra as Mulheres e a Violência Doméstica define violência psicológica como a intenção de lesar gravemente a integridade psicológica de uma pessoa por meio de coação ou ameaças </p>
+          <p>Abuso psicológico ou abuso emocional é um padrão de comportamento com o objetivo de ameaçar, intimidar, desumanizar ou sistematicamente debilitar a auto-estima de outra pessoa. A Convenção do Conselho da Europa para a Prevenção e o Combate à Violência Contra as Mulheres e a Violência Doméstica define violência psicológica como a intenção de lesar gravemente a integridade psicológica de uma pessoa por meio de coação ou ameaças </p>
       </div>
 
-   </section>
+   </div>
   </section>
 
 
@@ -211,7 +226,10 @@
 <!-----------------------SECTION 3 CRIMES OCULTOS------------------>
 
 
-    
+    <section class="Assuntos">
+
+
+ 
 <h5>OCULTOS DA SOCIEDADE</h5>
 <h3>Crimes Invisíveis</h3><br>
 
@@ -264,7 +282,11 @@
     </div>
 </div>
 
-   <!-- FOOTER -->
+</section>
+
+
+
+   <!----------------- FOOTER ------------------------------>
   <footer class="w-100 py-4 flex-shrink-0 px-0" id="contact">
       <div class="container py-4">
           <div class="row gy-4 gx-5">
@@ -284,9 +306,9 @@
                   <h6 class="text-white mb-3">Links Rápidos</h6>
                   <ul class="list-unstyled text-muted">
                       <li><a class="navItemhvr" href="#">Home</a></li>
-                      <li><a class="navItemhvr" href="#">Sobre</a></li>
+                      <li><a class="navItemhvr" href="./about.html">Sobre</a></li>
                       <li><a class="navItemhvr" href="#">Apoie</a></li>
-                      <li><a class="navItemhvr" href="#">Contato</a></li>
+                      <li><a class="navItemhvr" href="#contact">Contato</a></li>
                       <li><a class="navItemhvr" href="#">Login</a></li>
                   </ul>
               </div>
@@ -311,18 +333,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-------------------JSCRIPTS ------------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 

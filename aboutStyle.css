@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/*******VARIAVEIS DE CORES*******/
+:root {
+  --maincolor: rgb(64, 55, 70);
+  --maincolortransp: rgba(108, 0, 141, 0.548);
+  --maincolor2: rgb(255, 255, 255);
+  --maincolor3: rgba(56, 0, 94, 0.795);
+  
+  --text-color: rgb(255, 255, 255);
+  --hovertext-color: rgb(185, 133, 196);
+
+  --box-bg1-color:rgb(47, 16, 68) ;
+  --box-bg2-color: rgba(211, 172, 236, 0.644);
+
+  --border-color: rgb(192, 0, 218);
+
+  --button-enviar-login: rgb(111, 0, 145);
+  --button-border-login: rgb(75, 0, 124);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  background: url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+  background-size: cover;
+}
+
+/*******************  HEADER  *****************************/
+.logoHeader {
+  padding: 10px 30px;
+  width: 110px;
+}
+
+.headercolor {
+  background-color: var(--maincolor);
+  color: var(--hovertext-color);
+  filter: drop-shadow(0 0 6px black);
+}
+
+/******************MENU DROP********************/
+
+.dropdown-menu {
+  width: 220px;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: var(--maincolor3);
+  color: white;
+}
+
+/**************** HOVER MENU *****************************/
+
+.navItemhvr {
+  color: var(--maincolor2);
+}
+
+.navItemhvr:hover {
+  color: var(--hovertext-color);
+}
+
+
+
+/**************SOBRE*******************/
+
+
+.SectionAbout{
+
+  background-color: rgba(56, 38, 58, 0.116);
+  padding-bottom: 20px;
+
+
+}
+
+.history{
+  
+  background-color: rgba(255, 255, 255, 0.384);
+ 
+}
+
+.youtubeVideo {
+border: 1px solid white;
+filter: drop-shadow(0 0 5px black);
+margin: 20px;
+min-width: 200px;
+
+}
+
+.quemSomos{
+padding: 20px;
+text-align: justify;
+
+
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+h3{
+font-family: 'Major Mono Display', monospace;
+margin: 10px auto 5px;
+text-align: center;
+
+}
+
+
+.ImgMission, .ImgVision, .ImgValues {
+border-radius: 50px;
+border: 1px solid rgba(131, 131, 131, 0.562);
+filter: drop-shadow(0 0 5px rgb(194, 194, 194));
+width: 90px;
+height: 90px;
+padding: 10px 12px;
+margin: auto;
+background-color: white;
+}
+
+
+.Mission{
+  display: flex;
+  min-width: 500px;
+  max-width: 50vmax;
+  background-color: rgba(255, 255, 255, 0.527);
+  border: 1px solid white;
+  filter: drop-shadow(0 0 5px white);
+  border-radius: 50px;
+  margin: 5px auto 20px;
+  }
+
+.Mission p{
+margin: 5px 10px 40px;
+padding: 10px;
+text-align: justify;
+}
+
+.Vision{
+  display: flex;
+  min-width: 500px;
+  max-width: 50vmax;
+  background-color: rgba(255, 255, 255, 0.527);
+  border: 1px solid white;
+  filter: drop-shadow(0 0 5px white);
+  border-radius: 50px;
+  margin: 5px auto 20px;
+   }
+  
+  .Vision p{
+  margin: 15px 30px;
+  text-align: justify;
+  }
+
+  
+.Values{
+  display: flex;
+  min-width: 500px;
+  max-width: 50vmax;
+  background-color: rgba(255, 255, 255, 0.527);
+  border: 1px solid white;
+  filter: drop-shadow(0 0 5px white);
+  border-radius: 50px;
+  margin: 5px auto 20px;
+  
+  }
+  
+  .Values p{
+  margin: 15px 30px;
+  text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********FOOTER ***************/
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #ffffff;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #ffffff;
+}
+
+footer {
+  background: var(--maincolor);
+  color: var(--text-color);
+}
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+
+
