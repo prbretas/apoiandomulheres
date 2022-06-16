@@ -34,8 +34,12 @@ body {
 
 /*******************  HEADER  *****************************/
 .logoHeader {
-  padding: 10px 30px;
-  width: 110px;
+  
+  width: 50px;
+}
+
+.nomelogo{
+  margin-left: 20px;
 }
 
 .headercolor {
@@ -125,10 +129,7 @@ footer {
 /* ==========================================
     CUSTOM UTILS CLASSES
   ========================================== */
-body,
-html {
-  height: 100%;
-}
+
 
 /***************SECTION SOBRE*************/
 
@@ -141,18 +142,7 @@ h2 {
   line-height: 1.2;
 }
 
-h3,
-h4 {
-  padding-top: 40px;
-  text-align: center;
-  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
-  font-size: 24px;
-}
 
-h3 {
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
 
 h5 {
   padding-top: 80px;
@@ -161,21 +151,52 @@ h5 {
   text-align: center;
 }
 
-.p01 {
-  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
-  padding-right: 80px;
-  font-size: 18px;
-  padding-left: 400px;
-  padding-top: 20px;
+.SectionSobre{
+margin-top: 50px;
+
 }
 
-.img01 {
-  float: left;
-  width: 470px;
-  height: 340px;
-  margin-right: 50px;
+
+
+.divSobre {
+  display: flex;
+align-items: top;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.SectionSobre h3{
+text-align: center;
+padding: 10px;
+margin: 10px auto;
+}
+
+.SectionSobre h4{
+
+text-align: center;
+padding: 10px;
+margin: 0px auto 10px;
+}
+
+
+.SectionSobre p {
+
+min-width: 400px;
+max-width: 40vmax;
+padding: 10px;
+font-size: 0.9rem;
+margin: 10px 20px;
+text-align: justify;
+}
+
+.imgSobre {
+  min-width: 400px;
+  max-width: 40vmax;
+  margin: 10px ;
   box-shadow: 0 0 5px #000000d2;
-  margin-left: 50px;
+
+
 }
 
 /***************************BOTAO ENVIAR SECTION SOBRE ******************/
@@ -309,10 +330,21 @@ button:hover .button-text {
 }
 
 
-.item-box h2 {
+.item-box h3 {
 margin-top: 20px;
+font-size: 1.2rem;
+text-align: center;
 
 }
+
+.item-box p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  text-align: justify;
+
+  
+  }
+  
 
 
 
