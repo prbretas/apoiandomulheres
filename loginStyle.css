@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+/*******VARIAVEIS DE CORES*******/
+
 :root {
   --maincolor: rgb(64, 55, 70);
-    --maincolortransp: rgba(64, 55, 70, 0.466);
-    --maincolor2: rgb(255, 255, 255);
-    --maincolor3: rgba(63, 45, 75, 0.795);
+  --maincolortransp: rgba(108, 0, 141, 0.548);
+  --maincolor2: rgb(255, 255, 255);
+  --maincolor3: rgba(56, 0, 94, 0.795);
   
-    --text-color: rgb(255, 255, 255);
-    --hovertext-color: rgb(185, 133, 196);
+  --text-color: rgb(255, 255, 255);
+  --hovertext-color: rgb(185, 133, 196);
 
-    --box-bg1-color:rgb(80, 56, 97) ;
-    --box-bg2-color: rgba(126, 102, 141, 0.644);
+  --box-bg1-color:rgb(47, 16, 68) ;
+  --box-bg2-color: rgba(121, 98, 134, 0.644);
 
-    --border-color: rgb(89, 9, 126);
+  --border-color: rgb(192, 0, 218);
 
-    --button-enviar-login: rgb(162, 93, 184);
-    --button-border-login: rgb(147, 89, 185);
-  
-  }
-
+  --button-enviar-login: rgb(67, 40, 75);
+  --button-border-login: rgb(75, 0, 124);
+}
 
 
 
@@ -29,20 +29,22 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgb(214, 214, 214);
+       background: rgb(214, 214, 214);
     background-image: url(./pexels-irina-iriser-1381679.jpg);
     background-position: center right;
-    height: 100vh;
-   
+      
 }
 
 
 /*******************  HEADER  *****************************/
 .logoHeader {
-    padding: 10px 30px;
-    width: 110px;
-  }
+  
+  width: 50px;
+}
+
+.nomelogo{
+  margin-left: 20px;
+}
   
   .headercolor {
     background-color: var(--maincolor);
@@ -69,6 +71,7 @@ body {
   
   .navItemhvr {
     color: var(--maincolor2);
+    text-decoration: none;
   }
   
   .navItemhvr:hover {
@@ -87,12 +90,12 @@ body {
 
 .login {
    
-    width: 400px;
+    max-width: 400px;
     min-width: 200px;
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    margin: 175px auto 150px;
+    margin: 150px auto;
     background-color: var(--box-bg2-color);
     border: 2px solid var(--maincolor);
    
@@ -106,7 +109,7 @@ body {
 
 .text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin-bottom: 25px;
@@ -119,10 +122,10 @@ body {
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: block;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    height: 40px;
+    height: 2rem;
     width: 75%;
     padding-left: 10px;
     margin: auto;
@@ -165,6 +168,7 @@ body {
 }
 
 #btnSubmitLogin:hover {
+  background-color:  rgb(148, 83, 170);;
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
     border: rgb(210, 97, 255);
@@ -175,8 +179,9 @@ body {
 
 
 #frgtPsswrd{
-margin-left: 100px;
 color: var(--text-color);
+font-size: 0.9rem;
+margin: 0 50px;
 
 }
 

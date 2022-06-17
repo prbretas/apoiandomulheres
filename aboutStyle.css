@@ -34,10 +34,13 @@ body {
 
 /*******************  HEADER  *****************************/
 .logoHeader {
-  padding: 10px 30px;
-  width: 110px;
+  
+  width: 50px;
 }
 
+.nomelogo{
+  margin-left: 20px;
+}
 .headercolor {
   background-color: var(--maincolor);
   color: var(--hovertext-color);
@@ -91,16 +94,18 @@ body {
 .youtubeVideo {
 border: 1px solid white;
 filter: drop-shadow(0 0 5px black);
-margin: 20px;
+margin: 20px auto;
 min-width: 200px;
 
 }
 
 .quemSomos{
 padding: 20px;
+min-width: 400px;
+max-width: 40vmax;
+font-size: 0.9rem;
+margin: 10px auto;
 text-align: justify;
-
-
 }
 
 h1 {
@@ -132,7 +137,7 @@ background-color: white;
 
 .Mission{
   display: flex;
-  min-width: 500px;
+  min-width: 400px;
   max-width: 50vmax;
   background-color: rgba(255, 255, 255, 0.527);
   border: 1px solid white;
@@ -142,14 +147,16 @@ background-color: white;
   }
 
 .Mission p{
-margin: 5px 10px 40px;
-padding: 10px;
-text-align: justify;
+  margin: 15px 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  box-sizing: content-box;
+  padding-bottom:10px ;
 }
 
 .Vision{
   display: flex;
-  min-width: 500px;
+  min-width: 400px;
   max-width: 50vmax;
   background-color: rgba(255, 255, 255, 0.527);
   border: 1px solid white;
@@ -159,14 +166,17 @@ text-align: justify;
    }
   
   .Vision p{
-  margin: 15px 30px;
-  text-align: justify;
+    margin: 15px 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    box-sizing: content-box;
+    padding-bottom:10px ;
   }
 
   
 .Values{
   display: flex;
-  min-width: 500px;
+  min-width: 400px;
   max-width: 50vmax;
   background-color: rgba(255, 255, 255, 0.527);
   border: 1px solid white;
@@ -178,7 +188,10 @@ text-align: justify;
   
   .Values p{
   margin: 15px 30px;
-  text-align: justify;
+  text-align: center;
+  font-size: 0.9rem;
+  box-sizing: content-box;
+  padding-bottom:10px ;
   }
 
 
@@ -247,10 +260,38 @@ a:focus {
 footer {
   background: var(--maincolor);
   color: var(--text-color);
+
 }
 
-/* ==========================================
-    CUSTOM UTILS CLASSES
-  ========================================== */
 
 
+
+.div1Footer{
+background-color: rgb(46, 129, 129);
+text-align: left;
+
+
+
+}
+
+.div2Footer{
+  background-color: rgb(63, 129, 46);
+  text-align: center;
+
+
+  
+  }
+
+  
+  .div3Footer{
+   background-color: rgb(153, 182, 22);
+   text-align: right;
+ 
+   }
+  
+.inputFooter{
+width: 300px;
+font-size: 15px;
+
+
+}
