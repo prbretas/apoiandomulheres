@@ -2,21 +2,21 @@
 
 /*******VARIAVEIS DE CORES*******/
 :root {
-  --maincolor: rgb(64, 55, 70);
-  --maincolortransp: rgba(108, 0, 141, 0.548);
+  --maincolor: rgb(28,28,28);
+  --maincolortransp: rgba(28,28,28);
   --maincolor2: rgb(255, 255, 255);
-  --maincolor3: rgba(56, 0, 94, 0.795);
+  --maincolor3: rgba(160, 101, 147);
   
   --text-color: rgb(255, 255, 255);
-  --hovertext-color: rgb(185, 133, 196);
+  --hovertext-color: rgb(199, 127, 183);
 
-  --box-bg1-color:rgb(47, 16, 68) ;
-  --box-bg2-color: rgba(211, 172, 236, 0.644);
+  --box-bg1-color:rgb(160, 101, 147) ;
+  --box-bg2-color: rgba(160, 101, 147);
 
-  --border-color: rgb(192, 0, 218);
+  --border-color: rgb(160, 101, 147);
 
-  --button-enviar-login: rgb(111, 0, 145);
-  --button-border-login: rgb(75, 0, 124);
+  --button-enviar-login: rgb(160, 101, 147);
+  --button-border-login: rgb(160, 101, 147);
 }
 
 
@@ -35,7 +35,7 @@ body {
 /*******************  HEADER  *****************************/
 .logoHeader {
   
-  width: 50px;
+  width: 40px;
 }
 
 .nomelogo{
@@ -44,22 +44,11 @@ body {
 .headercolor {
   background-color: var(--maincolor);
   color: var(--hovertext-color);
-  filter: drop-shadow(0 0 6px black);
+  filter: drop-shadow(0 0 5px black);
 }
 
-/******************MENU DROP********************/
-
-.dropdown-menu {
-  width: 220px;
-}
-
-.dropdown-item {
-  text-align: center;
-}
-
-.dropdown-item:hover {
-  background-color: var(--maincolor3);
-  color: white;
+.header {
+  height: 60px;
 }
 
 /**************** HOVER MENU *****************************/

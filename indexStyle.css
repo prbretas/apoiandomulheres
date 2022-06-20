@@ -3,21 +3,21 @@
 /*******VARIAVEIS DE CORES*******/
 
 :root {
-  --maincolor: rgb(64, 55, 70);
-  --maincolortransp: rgba(108, 0, 141, 0.548);
+  --maincolor: rgb(28,28,28);
+  --maincolortransp: rgba(28,28,28);
   --maincolor2: rgb(255, 255, 255);
-  --maincolor3: rgba(56, 0, 94, 0.795);
+  --maincolor3: rgba(160, 101, 147);
   
   --text-color: rgb(255, 255, 255);
-  --hovertext-color: rgb(185, 133, 196);
+  --hovertext-color: rgb(199, 127, 183);
 
-  --box-bg1-color:rgb(47, 16, 68) ;
-  --box-bg2-color: rgba(211, 172, 236, 0.644);
+  --box-bg1-color:rgb(160, 101, 147) ;
+  --box-bg2-color: rgba(160, 101, 147);
 
-  --border-color: rgb(192, 0, 218);
+  --border-color: rgb(160, 101, 147);
 
-  --button-enviar-login: rgb(111, 0, 145);
-  --button-border-login: rgb(75, 0, 124);
+  --button-enviar-login: rgb(160, 101, 147);
+  --button-border-login: rgb(160, 101, 147);
 }
 
 * {
@@ -27,15 +27,16 @@
 }
 
 body {
-  background-color: grey;
-  background: url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+  background-color: rgb(240, 240, 240);
+
   background-size: cover;
+   
 }
 
 /*******************  HEADER  *****************************/
 .logoHeader {
   
-  width: 50px;
+  width: 40px;
 }
 
 .nomelogo{
@@ -45,23 +46,13 @@ body {
 .headercolor {
   background-color: var(--maincolor);
   color: var(--hovertext-color);
-  filter: drop-shadow(0 0 6px black);
+  filter: drop-shadow(0 0 5px black);
 }
 
-/******************MENU DROP********************/
-
-.dropdown-menu {
-  width: 220px;
+.header {
+  height: 60px;
 }
 
-.dropdown-item {
-  text-align: center;
-}
-
-.dropdown-item:hover {
-  background-color: var(--maincolor3);
-  color: white;
-}
 
 /**************** HOVER MENU *****************************/
 
@@ -152,16 +143,18 @@ h5 {
 }
 
 .SectionSobre{
-margin-top: 50px;
 
+background-color: #fff;
+margin: 15% 15%;
 }
 
 
 
 .divSobre {
-  display: flex;
-align-items: top;
+display: flex;
+align-items: center;
 justify-content: space-evenly;
+
 flex-wrap: wrap;
 
 }
@@ -182,17 +175,17 @@ margin: 0px auto 10px;
 
 .SectionSobre p {
 
-min-width: 400px;
-max-width: 40vmax;
-padding: 10px;
+min-width: 300px;
+max-width: 30vmax;
+padding: 5px;
 font-size: 0.9rem;
 margin: 10px 20px;
 text-align: justify;
 }
 
 .imgSobre {
-  min-width: 400px;
-  max-width: 40vmax;
+  min-width: 300px;
+  max-width: 30vmax;
   margin: 10px ;
   box-shadow: 0 0 5px #000000d2;
 
@@ -228,7 +221,7 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #cf5e5e;
+  background: rgb(168, 108, 155);
   border-radius: 1.625rem;
 }
 
@@ -296,18 +289,25 @@ button:hover .button-text {
 }
 
 /**************************SECTION 2 TIPOS DE ABUSO *************/
+.divsection3{
+padding: 0 138px;
+background-color: rgb(240, 240, 240);
 
+
+}
 .SectionTiposDeAbuso {
   text-align: center;
   padding-top: 100px;
   font-size: 18px;
   font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  background-color: #fff;
+ 
   
 }
 
 .imgbox {
-  width: 350px;
-  height: 260px;
+  width: 310px;
+ 
   box-shadow: 0 0 5px #00000098;
 }
 
@@ -316,12 +316,13 @@ button:hover .button-text {
   justify-content: space-evenly;
   align-items: top;
   flex-wrap: wrap;
+  
 
 
 }
 
 .item-box {
- width: 400px;
+ width: 300px;
  text-align: justify;
   border-radius: 10px;
   color: rgb(0, 0, 0);
@@ -350,8 +351,8 @@ text-align: center;
 
 /***************************   SECTION 3 OUTROS ASSUNTOS ******************************/
 .SectionOutrosAssuntos{
-background-color: rgb(32, 24, 36);
-margin: 50px 0 0;
+background-color: rgb(28,28,28);
+margin: 0px 0 0;
 
 }
 
@@ -374,7 +375,7 @@ color: rgb(255, 255, 255);
 /***********CARDS*********/
 
 .divAssuntos {
-  background-color: rgb(249, 243, 255);
+  background-color: rgb(240, 240, 240);
   margin: 50px auto;
   
   

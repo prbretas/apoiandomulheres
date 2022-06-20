@@ -41,8 +41,7 @@ body {
 
 /*******************  HEADER  *****************************/
 .logoHeader {
-  
-  width: 50px;
+    width: 40px;
 }
 
 .nomelogo{
@@ -53,6 +52,11 @@ body {
     background-color: var(--maincolor);
     color: var(--hovertext-color);
     filter: drop-shadow(0 0 10px black);
+  }
+
+  .header{
+    height: 60px;
+
   }
   
   /******************MENU DROP********************/
@@ -93,17 +97,17 @@ body {
 .SectionLogin{
 background-image: url(./background\ login\ 3.png);
   height: 100vh;
-  padding: 180px 20px;
+  padding: 100px 20px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 
 
 
 .login {
-   
     max-width: 400px;
     min-width: 200px;
     border-radius: 10px;
