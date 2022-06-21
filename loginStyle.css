@@ -54,6 +54,10 @@ body {
     filter: drop-shadow(0 0 10px black);
   }
 
+  .header{
+    height: 60px;
+
+  }
   
   /******************MENU DROP********************/
   

@@ -27,8 +27,7 @@
 }
 
 body {
-  background-color: grey;
-  background: url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+  background-color: rgb(240, 240, 240);
   background-size: cover;
 }
 
@@ -47,6 +46,9 @@ body {
   filter: drop-shadow(0 0 5px black);
 }
 
+.header {
+  height: 60px;
+}
 
 /**************** HOVER MENU *****************************/
 
@@ -64,16 +66,22 @@ body {
 
 
 .SectionAbout{
-
-  background-color: rgba(56, 38, 58, 0.116);
   padding-bottom: 20px;
+  padding-top: 20px;
+
 
 
 }
 
 .history{
-  
-  background-color: rgba(255, 255, 255, 0.384);
+padding: 20px;
+min-width: 400px;
+max-width: 70vmax;
+font-size: 0.9rem;
+margin: 10px auto;
+text-align: justify;
+background-color: white;
+border-radius: 5px;
  
 }
 
@@ -87,11 +95,13 @@ min-width: 200px;
 
 .quemSomos{
 padding: 20px;
-min-width: 400px;
-max-width: 40vmax;
+max-width: 600px;
+min-width: 200px;
+border-radius: 10px;
 font-size: 0.9rem;
 margin: 10px auto;
 text-align: justify;
+
 }
 
 h1 {
@@ -122,13 +132,14 @@ background-color: white;
 
 
 .Mission{
+  
   display: flex;
   min-width: 400px;
-  max-width: 50vmax;
-  background-color: rgba(255, 255, 255, 0.527);
+  max-width: 70vmax;
+  background-color: rgba(255, 255, 255, 0.664);
   border: 1px solid white;
   filter: drop-shadow(0 0 5px white);
-  border-radius: 50px;
+  border-radius: 5px;
   margin: 5px auto 20px;
   }
 
@@ -143,11 +154,11 @@ background-color: white;
 .Vision{
   display: flex;
   min-width: 400px;
-  max-width: 50vmax;
-  background-color: rgba(255, 255, 255, 0.527);
+  max-width: 70vmax;
+  background-color: rgba(255, 255, 255, 0.664);
   border: 1px solid white;
   filter: drop-shadow(0 0 5px white);
-  border-radius: 50px;
+  border-radius: 5px;
   margin: 5px auto 20px;
    }
   
@@ -163,11 +174,11 @@ background-color: white;
 .Values{
   display: flex;
   min-width: 400px;
-  max-width: 50vmax;
-  background-color: rgba(255, 255, 255, 0.527);
+  max-width: 70vmax;
+  background-color: rgba(255, 255, 255, 0.664);
   border: 1px solid white;
   filter: drop-shadow(0 0 5px white);
-  border-radius: 50px;
+  border-radius: 5px;
   margin: 5px auto 20px;
   
   }
@@ -180,36 +191,30 @@ background-color: white;
   padding-bottom:10px ;
   }
 
+  .Sectionfigure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 400px;
+
+  }
+
+  .blockquote{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px white);
+    padding: 10px 40px;
+        
+      }
 
 
+ .text-center{
+  margin: 0;
+    
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
@@ -246,7 +251,6 @@ a:focus {
 footer {
   background: var(--maincolor);
   color: var(--text-color);
-
 }
 
 
