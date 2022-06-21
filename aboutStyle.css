@@ -69,8 +69,6 @@ body {
   padding-bottom: 20px;
   padding-top: 20px;
 
-
-
 }
 
 .history{
@@ -205,6 +203,7 @@ background-color: white;
     border-radius: 5px;
     filter: drop-shadow(0 0 5px white);
     padding: 10px 40px;
+   font-size: 1rem;
         
       }
 
@@ -220,9 +219,6 @@ background-color: white;
 
 /*********FOOTER ***************/
 
-/* ==========================================
-    FOR DEMO PURPOSE
-  ========================================== */
 
 .text-small {
   font-size: 0.9rem;

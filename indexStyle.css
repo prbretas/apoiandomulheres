@@ -77,11 +77,49 @@ body {
   background-size: cover;
 }
 
+
+.carousel-caption{
+width: 300px;
+float: left;
+margin: 0;
+padding: 0;
+}
+
+
+
+.carousel-control-prev, .carousel-control-next{
+padding-right: 0;
+margin-right: 0;
+width: 8vmax;
+}
+
+
+
+.h5Carousel{
+
+color: rgb(255, 255, 255);
+font-weight: 700;
+font-size: 1rem;
+text-align: left;
+
+}
+
+.pCarousel{
+
+color: rgb(255, 255, 255);
+font-size: 0.95rem;
+font-weight: 200;
+text-align: left;
+}
+
+
+
+
+
+
+
 /*********FOOTER ***************/
 
-/* ==========================================
-    FOR DEMO PURPOSE
-  ========================================== */
 
 .text-small {
   font-size: 0.9rem;
@@ -156,6 +194,7 @@ max-width: 78.5vmax;
 .SectionSobre h3{
 text-align: center;
 margin: 10px auto 30px;
+font-weight: 800;
 }
 
 .SectionSobre h4{
@@ -188,6 +227,7 @@ text-align: justify;
 }
 
 /***************************BOTAO ENVIAR SECTION SOBRE ******************/
+
 
 /* From uiverse.io */
 button {
@@ -303,7 +343,8 @@ box-sizing: content-box;
 
 .SectionTiposDeAbuso h3{
 margin: 0;
-padding: 0;
+font-weight: 800;
+padding: 10px 50px;
 
 
 
@@ -322,6 +363,8 @@ padding: 0;
   width: 280px;
   border: 1px solid white;
   box-shadow: 0 0 2px #00000098;
+
+
 }
 .item-box {
   background-color: rgb(255, 255, 255);
@@ -340,6 +383,8 @@ padding: 0;
 margin-top: 20px;
 font-size: 1.2rem;
 text-align: center;
+padding: 0;
+font-weight: 800;
 
 }
 
@@ -347,6 +392,7 @@ text-align: center;
   margin-top: 20px;
   font-size: 0.9rem;
   text-align: justify;
+  padding: 0 10px;
 
   
   }
@@ -357,7 +403,7 @@ text-align: center;
 /***************************   SECTION 3 OUTROS ASSUNTOS ******************************/
 .SectionOutrosAssuntos{
 background-color: rgb(28,28,28);
-margin: 0px 0 0;
+margin: 0;
 
 }
 
@@ -385,6 +431,7 @@ color: rgb(255, 255, 255);
   
   
 }
+
 
 .divCard1, .divCard2, .divCard3 {
   
