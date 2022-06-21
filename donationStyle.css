@@ -190,7 +190,7 @@ color: white;
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-  border-color: #413844 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #17141f;
+  border-color: rgb(199, 127, 183) rgb(199, 127, 183) rgba(0, 0, 0, 0) rgb(199, 127, 183);
   color: #fff;
 }
 
@@ -540,4 +540,9 @@ color: white;
   background-color: #666;
   color: #FFF;
   text-decoration:none;
+}
+
+.spanHeaderPrices{
+font-size:10px;
+
 }
