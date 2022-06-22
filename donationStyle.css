@@ -72,10 +72,6 @@ body {
 }
 
 
-
-
-
-
 /*********************************FOOTER ************************/
 
 .text-small {
@@ -109,7 +105,7 @@ footer {
 
 
 
-/*****************************SECTION DONATION**********************************/
+/******************SECTION DONATION****************************/
 
 .SectionDonation{
 background-color: rgb(216, 216, 216);
@@ -118,9 +114,9 @@ margin-top: 10%;
 }
 
 
-h1{
+h1 {
 font-family: 'Major Mono Display', 'Courier New', Courier, monospace;
-color: white;
+color: rgb(0, 0, 0);
 
 }
 
@@ -148,11 +144,11 @@ color: white;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
-  border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4;
+  border-color: rgb(45, 36, 49)rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(45,36,49);
 }
-
+/********TITULO CARD PRICE CARDS******/
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
-  color: #525252;
+  color: #ffffff;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
@@ -184,7 +180,7 @@ color: white;
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-  border: 1px solid #582ecc; 
+  border: 1px solid #40355f; 
     color: #5e468b;
 } 
 
@@ -193,15 +189,16 @@ color: white;
   border-color: rgb(199, 127, 183) rgb(199, 127, 183) rgba(0, 0, 0, 0) rgb(199, 127, 183);
   color: #fff;
 }
-
+/*************HOVER TITULO PRICE CARDS**************/
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span{
-  color: #fff;
-}
+  color: rgb(0, 0, 0);
 
+}
+/************HOVER BOTAO CARDS****************/
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-  background-color:  #a562b9;
+  background-color:  #331c3a;
   color: #fff;
 } 
 #generic_price_table{
@@ -556,10 +553,9 @@ font-size:10px;
 
 
 
-/************** ONGS *****************/
+/******************************** ONGS *************************************/
 
 
-/***************************   SECTION 3 OUTROS ASSUNTOS ******************************/
 .SectionOngs {
   background-color: rgb(28,28,28);
   margin: 0;
