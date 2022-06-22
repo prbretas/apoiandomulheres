@@ -35,7 +35,7 @@
 }
 
 body {
-  background-color: #545454;
+  background-color: rgb(216, 216, 216);
    
 }
 
@@ -112,7 +112,7 @@ footer {
 /*****************************SECTION DONATION**********************************/
 
 .SectionDonation{
-background-color: #545454;
+background-color: rgb(216, 216, 216);
 margin-top: 10%;
 
 }
@@ -135,7 +135,7 @@ color: white;
 /*****************PRICE CARDS*******************************/
 
 #generic_price_table{
-  background-color: #545454;
+  background-color: rgb(216, 216, 216);
 }
 
 /*PRICE COLOR CODE START*/
@@ -545,4 +545,216 @@ color: white;
 .spanHeaderPrices{
 font-size:10px;
 
+}
+
+
+
+
+
+
+
+
+
+
+/************** ONGS *****************/
+
+
+/***************************   SECTION 3 OUTROS ASSUNTOS ******************************/
+.SectionOngs {
+  background-color: rgb(28,28,28);
+  margin: 0;
+  
+  }
+  
+  .SectionOngs h3{
+  font-family: 'Major Mono Display', monospace; 
+  text-align: center;
+  padding: 30px 0 0;
+  color: rgb(255, 255, 255);
+  
+  }
+  
+  
+  
+  .SectionOngs h5{
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 30px 0 0;
+    }
+  
+  
+  /***********CARDS*********/
+  
+  .divOngs {
+    background-color: rgb(240, 240, 240);
+    margin: 50px auto;
+    
+    
+  }
+  
+  
+  .divCard1, .divCard2, .divCard3 {
+ 
+    margin: 20px auto;
+    padding: 25px auto;
+    min-width: 400px;
+    max-width: 80vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+ 
+   
+  }
+
+    
+  .imgOng1 {
+    border: 2px solid white;
+    box-shadow: 0 0 10px #000000;
+    margin: 20px 10px;
+    padding: 0;
+
+    min-width: 50vmin;
+    max-width: 30vmax;
+    height: 240px;
+  }
+  
+  
+  .divInfoCards h3{
+    text-align: center;
+    color: #000000;
+   
+  
+    
+    }
+    
+  .pCards {
+   font-size: 0.9rem;
+   width: 400px;
+   padding: 10px;
+ 
+  }
+  
+  
+  
+  .imgOng2{
+  
+   border: 2px solid white;
+    box-shadow: 0 0 10px #000000;
+    margin: 20px 10px;
+    min-width: 50vmin;
+    max-width: 30vmax;
+    height: 240px;
+  }
+  
+  .imgOng3{
+      border: 2px solid white;
+     box-shadow: 0 0 10px #000000;
+     margin: 20px 10px;
+     min-width: 50vmin;
+     max-width: 30vmax;
+     height: 240px;
+   }
+
+
+
+   
+/***************************BOTAO ENVIAR SECTION SOBRE ******************/
+
+
+/* From uiverse.io */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(168, 108, 155);
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+.botaoenviar {
+  text-align: center;
+  padding-bottom: 40px;
 }
