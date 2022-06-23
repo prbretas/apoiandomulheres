@@ -111,7 +111,7 @@ background-image: url(./background\ login\ 3.png);
     border-bottom-right-radius: 50px;
     margin: 50px auto;
     background-color: var(--box-bg2-color);
-    border: 2px solid var(--maincolor);
+    border: 1px solid rgb(61, 61, 61);
    
 }
 
@@ -200,7 +200,7 @@ margin: 0 50px;
 }
 
 #frgtPsswrd:hover {
-color: var(--maincolor3);
+color: var(--hovertext-color);
 
 
 }
