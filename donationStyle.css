@@ -65,7 +65,7 @@ body {
   margin-top: 70px;
 }
 
-/*********************************FOOTER ************************/
+/********************************* ************************/
 
 .text-small {
   font-size: 0.9rem;
@@ -580,6 +580,13 @@ h1 {
 }
 #generic_price_table_home .footerPrice {
   padding: 40px 0;
+  
+}
+
+
+.SectionPriceCards{
+margin-bottom: 30px;
+
 }
 
 .price-heading {
@@ -606,22 +613,50 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
-.bottom_btn {
-  background-color: #333333;
-  color: #ffffff;
+
+
+
+
+.bottom_resultado_titulo {
+   color: #ffffff;
   display: table;
-  font-size: 28px;
-  margin: 60px auto 20px;
-  padding: 10px 25px;
+  font-size: 25px;
+  margin: 0 auto 5px;
+  padding: 5px auto;
   text-align: center;
   text-transform: uppercase;
 }
-.demo-button:hover {
-  background-color: #666;
-  color: #fff;
-  text-decoration: none;
+
+
+.bottom_resultado_RS {
+  color: #ffffff;
+ display: table;
+ font-size: 28px;
+ margin: 0 auto;
+ padding: 0 auto ;
+ text-align: center;
+ text-transform: uppercase;
+ width: max-content;
 }
-.bottom_btn:hover {
+
+.bottom_resultado {
+  color: #ffffff;
+ display: table;
+ font-size: 28px;
+ margin: 0 auto;
+ padding: 0 auto ;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.demo-button:hover {
   background-color: #666;
   color: #fff;
   text-decoration: none;
@@ -804,3 +839,5 @@ button:hover .button-text {
   text-align: center;
   padding-bottom: 40px;
 }
+
+

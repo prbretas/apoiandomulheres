@@ -93,8 +93,8 @@
 
         <div class="divInfoCards">
           <h3>instituto irMe</h3>
-          <p class="pCards">Apoiamos e respaldamos projetos e iniciativas que empoderem empreendedoras, garantindo independência financeira e de decisão pessoal.</p>
-
+          
+          <p class="pCards">O Instituto IRME Apoias e respalda projetos e iniciativas que empoderem empreendedoras, garantindo independência financeira e de decisão pessoal.</p>
 
           <p class="pCards">Acreditamos que quando uma mulher é empoderada financeiramente, ela não muda só a realidade
             de sua família, mas também a da sociedade, pois quando elas têm negócios que dão certo, investem em suas
@@ -138,9 +138,8 @@
           </p>
 
 
-          <a href="https://elasnopoder.org/" target="_blank">
-            <p class="pCards">Conheça a plataforma de formação política do #ElasNoPoder</p>
-          </a>
+          <p class="pCards">Conheça a plataforma de formação política do #ElasNoPoder</p>
+        
 
           <div class="botaoenviar">
             <a href="https://elasnopoder.org/" target="_blank">
@@ -177,14 +176,11 @@
           </p>
 
 
-          <p class="pCards">História
+          <p class="pCards">A psicóloga e teóloga Suzanne Marie Mailloux, de nacionalidade canadense, veio para o Brasil, em 1995, com o objetivo de desenvolver trabalhos sociais, em São Paulo. No desenrolar do trabalho, Suzanne observou o contexto de violência doméstica vivenciado por algumas crianças e mulheres, o que a motivou, a partir de uma perspectiva de gênero, a se aprofundar na seara das relações domésticas e familiares. Como fruto desse aprofundamento, em 2004, Suzanne, reunida com outras mulheres fundou a Associação Fala Mulher.</p>
 
-            A psicóloga e teóloga Suzanne Marie Mailloux, de nacionalidade canadense, veio para o Brasil, em 1995, com o objetivo de desenvolver trabalhos sociais, em São Paulo. No desenrolar do trabalho, Suzanne observou o contexto de violência doméstica vivenciado por algumas crianças e mulheres, o que a motivou, a partir de uma perspectiva de gênero, a se aprofundar na seara das relações domésticas e familiares. Como fruto desse aprofundamento, em 2004, Suzanne, reunida com outras mulheres fundou a Associação Fala Mulher.</p>
-
-
-          <a href="https://www.falamulher.ong.br/" target="_blank">
-            <p class="pCards">Conheça os projetos nos quais o Instituto Rede Mulher Empreendedora está envolvido</p>
-          </a>
+       
+            <p class="pCards">Conheça os projetos da Associação Fala Mulher.</p>
+ 
 
           <div class="botaoenviar">
             <a href="https://www.falamulher.ong.br/" target="_blank">
@@ -209,10 +205,8 @@
 <!--------------SECTION DOAÇÕES------------->
   <section class="SectionDonation my-0">
 
-
-
     <div id="generic_price_table">
-      <section>
+      <section class="SectionPriceCards">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -228,6 +222,8 @@
 
           <!--BLOCK ROW START-->
           <div class="row">
+            
+<!----------------------------PRICE 1--------------------------------->
             <div class="col-md-4">
 
               <!--PRICE CONTENT START-->
@@ -275,15 +271,19 @@
                 <!--//FEATURE LIST END-->
 
                 <!--BUTTON START-->
-                <div class="generic_price_btn clearfix">
-                  <a class="login.html" href="">Doe Agora Mesmo!</a>
-                </div>
-                <!--//BUTTON END-->
-
+                <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentar()">
+                  <a class="">
+                    Doe Agora Mesmo!
+                  </a>
+                </button>
+                
+               <!--//BUTTON END-->
               </div>
               <!--//PRICE CONTENT END-->
-
             </div>
+
+
+<!----------------------------PRICE 2--------------------------------->
 
             <div class="col-md-4">
 
@@ -331,16 +331,21 @@
                 </div>
                 <!--//FEATURE LIST END-->
 
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix">
-                  <a class="" href="">Doe Agora mesmo</a>
-                </div>
+                 <!--BUTTON START-->
+                 <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentar()">
+                  <a class="">
+                    Doe Agora Mesmo!
+                  </a>
+                </button>
                 <!--//BUTTON END-->
 
               </div>
               <!--//PRICE CONTENT END-->
 
             </div>
+
+
+<!----------------------------PRICE 3--------------------------------->
             <div class="col-md-4">
 
               <!--PRICE CONTENT START-->
@@ -378,35 +383,45 @@
                 <!--FEATURE LIST START-->
                 <div class="generic_feature_list">
                   <ul>
-                    <li><span>Associação</span> Fala Mulher</li>
                     <li><span>Atuamos</span> na defesa dos direitos humanos</li>
                     <li><span>Emponderando</span> mulheres</li>
                     <li><span>Fortalecendo</span> Famílias</li>
-                    <li><span>+Empreendorismo</span></li>
+                    <li><span>Facilitar</span> o acesso as informações da Lei Maria da Penha</li>
+                    <li><span>+Empreendorismo</span> Feminino</li>
+                   
                   </ul>
                 </div>
                 <!--//FEATURE LIST END-->
 
                 <!--BUTTON START-->
-                <div class="generic_price_btn clearfix">
-                  <a class="" href="">Doe agora mesmo!</a>
-                </div>
+                <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentar()">
+                  <a class="">
+                    Doe Agora Mesmo!
+                  </a>
+                </button>
+
+               
                 <!--//BUTTON END-->
 
               </div>
               <!--//PRICE CONTENT END-->
 
             </div>
+
           </div>
           <!--//BLOCK ROW END-->
-
         </div>
+
+
+
       </section>
+
       <footer class="footerPrice">
-        <a class="bottom_btn" href="#">Valor Arrecadado em Doações
-          <br>
-          R$5.792,57</a>
+          <p class="bottom_resultado_titulo"> Valor Arrecadado em Doações</p>        
+            <p class="bottom_resultado" id="ValorArrecadado">R$</p>  
+               
       </footer>
+      
     </div>
 
   </section>
@@ -473,6 +488,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+
+    <script src="donation.js"></script>
 </body>
 
 </body>
