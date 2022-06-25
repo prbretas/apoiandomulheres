@@ -33,8 +33,44 @@ body {
    
 }
 
+/******************ANIMAÇÕES********************/
+
+/*TRANSLATE 3D*/
+/*** Obs:
+- Eixo X (Horizontal)
+- Eixo Y (Vertical)
+- Eixo Z (3D) **/
 
 
+[data-anime] {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+[data-anime="left"]{
+transform: translate3d(-50px, 0, 0);
+}
+
+
+[data-anime="right"]{
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"]{
+  transform: translate3d(0, -25px, 0);
+}
+
+[data-anime="bottom"]{
+  transform: translate3d(0, 25px, 0);
+}
+
+
+
+
+[data-anime].animate {
+opacity: 1;
+transform: translate3d(0px, 0px, 0px);
+}
 
 
 
@@ -465,7 +501,7 @@ color: rgb(255, 255, 255);
   box-shadow: 0 0 10px #000000;
   margin: 20px 10px;
   min-width: 50vmin;
-  max-width: 25vmax;
+  max-width: 40vmax;
 }
 
 .imgCrimesVirtuais{

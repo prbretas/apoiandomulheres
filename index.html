@@ -128,10 +128,10 @@
 
     <div class="divSobre">
       <div>
-        <img class="imgSobre" src="img1.jpg">
+        <img class="imgSobre" src="img1.jpg" data-anime="left">
       </div>
 
-      <div>
+      <div data-anime="right">
         <h4>Violência contra Mulher</h4>
         <p>A violência contra as mulheres se manifesta de diversas formas. De fato, o próprio conceito definido na
           Convenção de Belém do Pará (1994) aponta para esta amplitude, definindo violência contra as mulheres como
@@ -173,11 +173,11 @@
     
     <section class="SectionTiposDeAbuso px-0 mx-0">
 
-    <h3>A importância de identificar os tipos de agressão:</h3>
+    <h3  data-anime="bottom">A importância de identificar os tipos de agressão:</h3>
 
     <div class="divAbusos">
     
-      <div class="item-box">
+      <div class="item-box" data-anime="left">
         <img class="imgbox" src="pexels-kat-smith-568021.jpg">
         <h3>ABUSO FISÍCO</h3>
         <p>Abuso físico é o abuso que envolve contacto físico com a intenção de infligir medo, dor, outro tipo de
@@ -188,7 +188,7 @@
       </div>
 
 
-      <div class="item-box">
+      <div class="item-box" data-anime="bottom">
         <img class="imgbox" src="img3.jpg">
         <h3>ABUSO SEXUAL</h3>
         <p>A Organização Mundial de Saúde define abuso sexual como qualquer ato sexual, tentativa de obter um ato
@@ -199,7 +199,7 @@
       </div>
 
 
-      <div class="item-box">
+      <div class="item-box" data-anime="right">
         <img class="imgbox" src="img4.jpg">
 
         <h3>ABUSO PSICOLÓGICO</h3>
@@ -219,18 +219,22 @@
   <!------------------SECTION 3 CRIMES OCULTOS-------------->
 
 
-  <section class="SectionOutrosAssuntos  px-0 mx-0">
-      <h3>ocultos da sociedade</h3>
+  <section class="SectionOutrosAssuntos px-0 mx-0">
+
+    <div data-anime="bottom">
+         <h3>ocultos da sociedade</h3>
       <h5>Os Crimes Invisíveis</h5>
+    </div>
+   
      <div class="divAssuntos">
 
       <div class="divCard1">
 
         <div>
-          <img class="imgCasamentoInfantil" src="casament-crianca.jpg">
+          <img class="imgCasamentoInfantil" src="casament-crianca.jpg" data-anime="left">
         </div>
 
-        <div class="divInfoCards">
+        <div class="divInfoCards" data-anime="bottom">
           <h3>casamento infantil</h3>
 
           <p class="pCards">No Brasil, essa realidade é alarmante: 26% das mulheres brasileiras casaram-se ou foram​
@@ -243,7 +247,7 @@
 
       <div class="divCard2">
 
-         <div class="divInfoCards">
+         <div class="divInfoCards" data-anime="bottom">
           <h3>tráfico de Mulheres</h3>
 
           <p class="pCards">O Tráfico de mulheres é um crime invisível, silencioso, oculto sob o véu de um
@@ -261,21 +265,20 @@
 
 
         <div>
-          <img class="imgTrafMulheres" src="1-tráfico-humano.jpg">
+          <img class="imgTrafMulheres" src="1-tráfico-humano.jpg" data-anime="right">
         </div>
 
       </div>
 
 
-
       <div class="divCard3">
         
         <div>
-          <img class="imgCrimesVirtuais" src="crime-virtual.jfif">
+          <img class="imgCrimesVirtuais" src="crime-virtual.jfif"  data-anime="left">
         </div>
         
 
-        <div class="divInfoCards">
+        <div class="divInfoCards" data-anime="bottom">
           <h3>crimes Virtuais</h3>
           <p class="pCards">A ameaça de vazar fotos e vídeos pessoais não vem apenas de criminosos da internet. A equipe
             encontrou mulheres que foram chantageadas por antigos parceiros — crime conhecido como pornografia de
@@ -364,8 +367,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-</body>
+<script src="index.js"></script>
 
-</body>
+  </body>
+
+
 
 </html>
