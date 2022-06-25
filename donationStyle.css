@@ -28,6 +28,8 @@
 
 /******************ANIMAÇÕES********************/
 
+
+
 /*TRANSLATE 3D*/
 /*** Obs:
 - Eixo X (Horizontal)
@@ -41,20 +43,20 @@
 }
 
 [data-anime="left"]{
-transform: translate3d(-50px, 0, 0);
+transform: translate3d(-10px, 0, 0);
 }
 
 
 [data-anime="right"]{
-  transform: translate3d(50px, 0, 0);
+  transform: translate3d(10px, 0, 0);
 }
 
 [data-anime="top"]{
-  transform: translate3d(0, -50px, 0);
+  transform: translate3d(0, -10px, 0);
 }
 
 [data-anime="bottom"]{
-  transform: translate3d(0, 25px, 0);
+  transform: translate3d(0, 10px, 0);
 }
 
 
@@ -62,6 +64,7 @@ transform: translate3d(-50px, 0, 0);
 opacity: 1;
 transform: translate3d(0px, 0px, 0px);
 }
+
 
 /*******************************************************/
 

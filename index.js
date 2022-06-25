@@ -57,6 +57,6 @@ const debounce = function(func, wait, immediate) {
   
   window.addEventListener('scroll', debounce(function () {
     animeScroll()
-  }, 50));
+  }, 10));
   }
   

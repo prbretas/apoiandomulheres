@@ -57,5 +57,5 @@ if(target.length) {
 
 window.addEventListener('scroll', debounce(function () {
   animeScroll()
-}, 50));
+}, 10));
 }
