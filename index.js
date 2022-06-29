@@ -10,7 +10,6 @@
 // 5 - Otimizar ativação
 
 
-
 //DEBOUNCE DO LODASH
 
 const debounce = function(func, wait, immediate) {
@@ -27,12 +26,6 @@ const debounce = function(func, wait, immediate) {
     if (callNow) func.apply (context, args);
     };
   };
-  
-  
-  
-  
-  
-  
   
   
   const target = document.querySelectorAll('[data-anime]')
