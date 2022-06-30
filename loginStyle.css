@@ -1,27 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 /*******VARIAVEIS DE CORES*******/
-
-
 :root {
   --maincolor: rgb(24, 24, 24);
   --maincolortransp: rgba(108, 0, 141, 0.548);
   --maincolor2: rgb(255, 255, 255);
   --maincolor3: rgba(87, 71, 83, 0.795);
-  
   --text-color: rgb(255, 255, 255);
   --hovertext-color: rgb(185, 133, 196);
-
   --box-bg1-color:rgb(47, 16, 68) ;
   --box-bg2-color: rgba(74, 73, 75, 0.644);
-
   --border-color: rgb(192, 0, 218);
-
   --button-enviar-login: rgb(114, 100, 111);
   --button-border-login: rgb(27, 27, 27);
 }
-
-
 
 
 * {

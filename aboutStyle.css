@@ -98,6 +98,15 @@ text-align: justify;
 
 }
 
+
+#doe:hover {
+color: var(--hovertext-color);
+font-size: 1rem;
+
+}
+
+
+
 h1 {
   font-family: 'Major Mono Display', monospace;
   text-align: center;
