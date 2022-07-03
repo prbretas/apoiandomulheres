@@ -9,7 +9,7 @@
   --maincolor3: rgba(160, 101, 147);
   
   --text-color: rgb(255, 255, 255);
-  --hovertext-color: rgb(199, 127, 183);
+  --hovertext-color: rgb(185, 133, 196);
 
   --box-bg1-color:rgb(160, 101, 147) ;
   --box-bg2-color: rgba(160, 101, 147);
@@ -269,6 +269,9 @@ min-width: 400px;
 max-width: 78.5vmax;
 }
 
+
+
+
 .SectionSobre h3{
 text-align: center;
 margin: 10px auto 30px;
@@ -299,10 +302,25 @@ text-align: justify;
   margin: 10px;
   margin-top: 30px;
   border: 2px solid white;
-  box-shadow: 0 0 5px #000000d2;
-
+  box-shadow: 0 0 10px #0000000e;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform 1s ease;
 
 }
+
+.imgSobre:hover{
+  box-shadow: 0 0 5px #00000038;
+  position: left;
+  max-width: 35vmax;
+  -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+}
+
+.img-container{
+ overflow: hidden;
+
+}
+
 
 /***************************BOTAO ENVIAR SECTION SOBRE ******************/
 
@@ -451,6 +469,11 @@ padding: 10px 50px;
   margin-top: 20px;
   margin-bottom: 30px;
   
+  
+}
+.item-box:hover {
+
+  filter: drop-shadow(0 0 5px white);
 }
 
 
@@ -563,8 +586,9 @@ color: rgb(255, 255, 255);
 .imgCrimesVirtuais{
 
   border: 2px solid white;
-   box-shadow: 0 0 10px #000000;
+   box-shadow: 0 0 10px #00000025;
    margin: 20px 10px;
    min-width: 50vmin;
    max-width: 40vmax;
  }
+
