@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/120/120696.png">
-  <title>Apoiando Mulheres - Doações</title>
+  <title>Apoiando Muleres - Doações</title>
 
   <!--LINKS BOOTSTRAP-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,6 +20,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+
+
+
+<!--SCRIPTS MENU POPOVER-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
 </head>
 
 <body class="px-0 mx-0">
@@ -35,7 +49,7 @@
 
 
         <a class="navbar-brand nomelogo" style="color: white; font-family: 'Major Mono Display', monospace;"
-          href="./index.html">Apoiando Mulheres</a>
+          href="./index.html">Apoiando MulHeres</a>
 
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -290,18 +304,19 @@
                 <!--//FEATURE LIST END-->
 
                 <!--BUTTON START-->
-                <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentarIrme()">
+                <button class="generic_price_btn clearfix" id="button_contador"  data-toggle="popover"  onclick="aumentarIrme()">
                   <a class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
 
-                <!--//BUTTON END-->
+              <!--//BUTTON END-->
               </div>
               <!--//PRICE CONTENT END-->
             </div>
 
-
+          
+            
             <!----------------------------PRICE 2--------------------------------->
 
             <div class="col-md-4" data-anime="bottom">
@@ -351,8 +366,8 @@
                 <!--//FEATURE LIST END-->
 
                 <!--BUTTON START-->
-                <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentarElasNoPoder()">
-                  <a>
+                <button class="generic_price_btn clearfix" id="button_contador"  data-toggle="popover"  onclick="aumentarElasNoPoder() ">
+                  <a class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
@@ -413,12 +428,13 @@
                 <!--//FEATURE LIST END-->
 
                 <!--BUTTON START-->
-                <button class="generic_price_btn clearfix" id="button_contador" onclick="aumentarFalaMulher()">
-                  <a>
+                <button class="generic_price_btn clearfix" id="button_contador"  data-toggle="popover"  onclick="aumentarFalaMulher()">
+                  <a class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
 
+            
 
                 <!--//BUTTON END-->
 
@@ -455,7 +471,7 @@
 
         <div class="col-md-3 col-md-6 px-0 mx-0">
           <a href="index.html"><h6 class="h6 text-white" style="font-family: 'Major Mono Display',
-              monospace; margin-left: 30px;">Apoiando Mulheres</h6></a>  
+              monospace; margin-left: 30px;">Apoiando MulHeres</h6></a>  
             
           <p class="small" style="margin-left: 30px;">Transformando a vida de
             milhares de mulheres.
@@ -618,8 +634,18 @@
     crossorigin="anonymous"></script>
 
   <script src="donation.js"></script>
+
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover({
+        title:'Exemplo de direcionamento PIX', 
+        html:true,
+        content:'<a href="./PIX.png" target="_blank"><img width="250px"src="./PIX 376 x 315.png" title="PIX - PICPAY"></img></a>'});   
+    });
+    </script>
 </body>
 
-</body>
+
+
 
 </html>
