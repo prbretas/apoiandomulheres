@@ -269,6 +269,17 @@ min-width: 400px;
 max-width: 78.5vmax;
 }
 
+.divSobre2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 78.5vmax;
+  }
+
 
 
 
@@ -546,6 +557,10 @@ color: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
 
  
+}
+
+.divCard2{
+  flex-wrap: wrap-reverse;
 }
 
 

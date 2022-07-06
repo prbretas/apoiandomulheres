@@ -815,6 +815,24 @@ margin-bottom: 30px;
   background-color: rgb(255, 255, 255);
 }
 
+
+.divCard2 {
+  margin: 20px auto;
+  padding: 25px auto;
+  min-width: 400px;
+  max-width: 80vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
 .divInfoCards h3 {
   text-align: center;
   color: #000000;
