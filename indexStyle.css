@@ -81,6 +81,12 @@ transform: translate3d(0px, 0px, 0px);
   margin-left: 20px;
 }
 
+.nomelogo:hover{
+  color: var(--hovertext-color);
+}
+
+
+
 .headercolor {
   background-color: var(--maincolor);
   color: var(--hovertext-color);
