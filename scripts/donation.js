@@ -26,28 +26,12 @@ function mostrarNaTela() {
   const ValorArrecadado = document.getElementById("ValorArrecadado");
   ValorArrecadado.innerText = `R$ ${numero}`;
 
-
 }
 
 // iniciar
 mostrarNaTela();
 
-
-
-
 let VAValue = ValorArrecadado.value
-
-
-
-
-
-
-
-
-
-
-
-
 
 /********************ANIMAÇÕES JS********************************/
 

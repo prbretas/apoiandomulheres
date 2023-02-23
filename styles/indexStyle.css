@@ -3,15 +3,15 @@
 /*******VARIAVEIS DE CORES*******/
 
 :root {
-  --maincolor: rgb(28,28,28);
-  --maincolortransp: rgba(28,28,28);
+  --maincolor: rgb(28, 28, 28);
+  --maincolortransp: rgba(28, 28, 28);
   --maincolor2: rgb(255, 255, 255);
   --maincolor3: rgba(160, 101, 147);
-  
+
   --text-color: rgb(255, 255, 255);
   --hovertext-color: rgb(185, 133, 196);
 
-  --box-bg1-color:rgb(160, 101, 147) ;
+  --box-bg1-color: rgb(160, 101, 147);
   --box-bg2-color: rgba(160, 101, 147);
 
   --border-color: rgb(160, 101, 147);
@@ -30,9 +30,8 @@ body {
   background-color: rgb(240, 240, 240);
 
   background-size: cover;
-   
-}
 
+}
 /******************ANIMAÇÕES********************/
 
 /*TRANSLATE 3D*/
@@ -47,41 +46,41 @@ body {
   transition: 0.4s;
 }
 
-[data-anime="left"]{
-transform: translate3d(-30px, 0, 0);
+[data-anime="left"] {
+  transform: translate3d(-30px, 0, 0);
 }
 
 
-[data-anime="right"]{
+[data-anime="right"] {
   transform: translate3d(10px, 0, 0);
 }
 
-[data-anime="top"]{
+[data-anime="top"] {
   transform: translate3d(0, -30px, 0);
 }
 
-[data-anime="bottom"]{
+[data-anime="bottom"] {
   transform: translate3d(0, 30px, 0);
 }
 
 
 [data-anime].animate {
-opacity: 1;
-transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 
 /*******************  HEADER  *****************************/
 .logoHeader {
-  
+
   width: 40px;
 }
 
-.nomelogo{
+.nomelogo {
   margin-left: 20px;
 }
 
-.nomelogo:hover{
+.nomelogo:hover {
   color: var(--hovertext-color);
 }
 
@@ -122,20 +121,21 @@ transform: translate3d(0px, 0px, 0px);
 }
 
 
-.carousel-control-prev, .carousel-control-next{
-padding-right: 0;
-margin-right: 0;
-width: 8vmax;
+.carousel-control-prev,
+.carousel-control-next {
+  padding-right: 0;
+  margin-right: 0;
+  width: 8vmax;
 }
 
 
 
-.h5Carousel{
+.h5Carousel {
 
-color: rgb(255, 255, 255);
-font-weight: 700;
-font-size: 1rem;
-filter: drop-shadow(0 0 0.5px black);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1rem;
+  filter: drop-shadow(0 0 0.5px black);
 
 }
 
@@ -177,63 +177,63 @@ footer {
 }
 
 
-.socialMediaLinks{
-margin-top: 5px;
-margin-left: 30px;
+.socialMediaLinks {
+  margin-top: 5px;
+  margin-left: 30px;
 
 }
 
 
 
-.links{
-padding-right: 5px;
+.links {
+  padding-right: 5px;
 
 }
 
-.links:hover{
-color: var(--hovertext-color);
-  
-  }
+.links:hover {
+  color: var(--hovertext-color);
 
-  .sitelink{
-color: white;
+}
 
-
-  }
-
-
-  .sitelink:hover{
-    color: var(--hovertext-color);
-    
-    
-      }
-
-.div1Footer{
-background-color: rgb(46, 129, 129);
-text-align: left;
-
+.sitelink {
+  color: white;
 
 
 }
 
-.div2Footer{
+
+.sitelink:hover {
+  color: var(--hovertext-color);
+
+
+}
+
+.div1Footer {
+  background-color: rgb(46, 129, 129);
+  text-align: left;
+
+
+
+}
+
+.div2Footer {
   background-color: rgb(63, 129, 46);
   text-align: center;
 
 
-  
-  }
 
-  
-  .div3Footer{
-   background-color: rgb(153, 182, 22);
-   text-align: right;
- 
-   }
-  
-.inputFooter{
-width: 300px;
-font-size: 15px;
+}
+
+
+.div3Footer {
+  background-color: rgb(153, 182, 22);
+  text-align: right;
+
+}
+
+.inputFooter {
+  width: 300px;
+  font-size: 15px;
 
 
 }
@@ -258,21 +258,21 @@ h5 {
   text-align: center;
 }
 
-.SectionSobre{
-margin: 10px;
+.SectionSobre {
+  margin: 10px;
 }
 
 
 
 .divSobre {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
-background-color: rgb(255, 255, 255);
-margin: 0 auto;
-min-width: 400px;
-max-width: 78.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 78.5vmax;
 }
 
 .divSobre2 {
@@ -284,33 +284,33 @@ max-width: 78.5vmax;
   margin: 0 auto;
   min-width: 400px;
   max-width: 78.5vmax;
-  }
-
-
-
-
-.SectionSobre h3{
-text-align: center;
-margin: 10px auto 30px;
-font-weight: 600;
 }
 
-.SectionSobre h4{
 
-text-align: center;
-padding: 20px 0;
-margin: 0px auto 10px;
+
+
+.SectionSobre h3 {
+  text-align: center;
+  margin: 10px auto 30px;
+  font-weight: 600;
+}
+
+.SectionSobre h4 {
+
+  text-align: center;
+  padding: 20px 0;
+  margin: 0px auto 10px;
 }
 
 
 .SectionSobre p {
 
-min-width: 300px;
-max-width: 30vmax;
-padding: 5px;
-font-size: 0.9rem;
-margin: 10px 20px;
-text-align: justify;
+  min-width: 300px;
+  max-width: 30vmax;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin: 10px 20px;
+  text-align: justify;
 }
 
 .imgSobre {
@@ -325,16 +325,16 @@ text-align: justify;
 
 }
 
-.imgSobre:hover{
+.imgSobre:hover {
   box-shadow: 0 0 5px #00000038;
   position: left;
   max-width: 35vmax;
   -webkit-transform: scale(1.2);
-   transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.img-container{
- overflow: hidden;
+.img-container {
+  overflow: hidden;
 
 }
 
@@ -437,27 +437,28 @@ button:hover .button-text {
 }
 
 /**************************SECTION 2 TIPOS DE ABUSO *************/
-.divSection3{
-background-color: rgb(240, 240, 240);
-box-sizing: content-box;
+.divSection3 {
+  background-color: rgb(240, 240, 240);
+  box-sizing: content-box;
 
 
 
 
 }
+
 .SectionTiposDeAbuso {
   text-align: center;
   padding-top: 50px;
   font-size: 18px;
 
 
-     
+
 }
 
-.SectionTiposDeAbuso h3{
-margin: 0;
-font-weight: 600;
-padding: 10px 50px;
+.SectionTiposDeAbuso h3 {
+  margin: 0;
+  font-weight: 600;
+  padding: 10px 50px;
 }
 
 
@@ -466,7 +467,7 @@ padding: 10px 50px;
   justify-content: space-evenly;
   align-items: top;
   flex-wrap: wrap;
-  }
+}
 
 
 .imgbox {
@@ -476,18 +477,20 @@ padding: 10px 50px;
 
 
 }
+
 .item-box {
   background-color: rgb(255, 255, 255);
- width: 300px;
- text-align: justify;
+  width: 300px;
+  text-align: justify;
   border-radius: 10px;
   color: rgb(0, 0, 0);
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 30px;
-  
-  
+
+
 }
+
 .item-box:hover {
 
   filter: drop-shadow(0 0 5px white);
@@ -495,11 +498,11 @@ padding: 10px 50px;
 
 
 .item-box h3 {
-margin-top: 20px;
-font-size: 1.2rem;
-text-align: center;
-padding: 0;
-font-weight: 800;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0;
+  font-weight: 800;
 
 }
 
@@ -509,35 +512,35 @@ font-weight: 800;
   text-align: justify;
   padding: 0 10px;
 
-  
-  }
-  
+
+}
+
 
 
 
 /***************************   SECTION 3 OUTROS ASSUNTOS ******************************/
-.SectionOutrosAssuntos{
-background-color: rgb(28,28,28);
-margin: 0;
+.SectionOutrosAssuntos {
+  background-color: rgb(28, 28, 28);
+  margin: 0;
 
 }
 
-.SectionOutrosAssuntos h3{
-font-family: 'Major Mono Display', monospace; 
-text-align: center;
-padding: 30px 0 0;
-color: rgb(255, 255, 255);
+.SectionOutrosAssuntos h3 {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  padding: 30px 0 0;
+  color: rgb(255, 255, 255);
 
 }
 
 
 
-.SectionOutrosAssuntos h5{
-  
+.SectionOutrosAssuntos h5 {
+
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 30px 0 0;
-  }
+}
 
 
 /***********CARDS*********/
@@ -545,13 +548,15 @@ color: rgb(255, 255, 255);
 .divAssuntos {
   background-color: rgb(240, 240, 240);
   margin: 50px auto;
-  
-  
+
+
 }
 
 
-.divCard1, .divCard2, .divCard3 {
-  
+.divCard1,
+.divCard2,
+.divCard3 {
+
   margin: 20px auto;
   padding: 25px auto;
   min-width: 400px;
@@ -562,10 +567,10 @@ color: rgb(255, 255, 255);
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255);
 
- 
+
 }
 
-.divCard2{
+.divCard2 {
   flex-wrap: wrap-reverse;
 }
 
@@ -579,37 +584,36 @@ color: rgb(255, 255, 255);
 }
 
 
-.divInfoCards h3{
+.divInfoCards h3 {
   text-align: center;
   color: #000000;
 
-  
-  }
-  
+
+}
+
 .pCards {
- font-size: 0.9rem;
- width: 400px;
+  font-size: 0.9rem;
+  width: 400px;
   padding: 10px;
   text-align: justify;
 }
 
 
 
-.imgTrafMulheres{
+.imgTrafMulheres {
 
- border: 2px solid white;
+  border: 2px solid white;
   box-shadow: 0 0 10px #000000;
   margin: 20px 10px;
   min-width: 50vmin;
   max-width: 40vmax;
 }
 
-.imgCrimesVirtuais{
+.imgCrimesVirtuais {
 
   border: 2px solid white;
-   box-shadow: 0 0 10px #00000025;
-   margin: 20px 10px;
-   min-width: 50vmin;
-   max-width: 40vmax;
- }
-
+  box-shadow: 0 0 10px #00000025;
+  margin: 20px 10px;
+  min-width: 50vmin;
+  max-width: 40vmax;
+}

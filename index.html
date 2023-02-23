@@ -1,619 +1,495 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="https://cdn-icons-png.flaticon.com/512/120/120696.png"
-    />
-    <title>Apoiando Mulheres - Home</title>
 
-    <!--LINKS BOOTSTRAP-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/120/120696.png" />
+  <title>Apoiando Mulheres - Home</title>
 
-    <!--LINKS STYLE CSS-->
-    <link rel="stylesheet" href="indexStyle.css" />
+  <!--LINKS BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <!------------GOOGLE FONTS: MAJOR MONO DISPLAY---------->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <!--LINKS STYLE CSS-->
+  <link rel="stylesheet" href="./styles/indexStyle.css" />
 
-  <body class="px-0 mx-0">
-    <!---------------CABEÇALHO - MENU ----------------------->
-    <header>
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md fixed-top headercolor">
-        <div class="container py-2">
-          <a href="index (3).html">
-            <img
-              class="logoHeader"
-              src="https://cdn-icons-png.flaticon.com/512/120/120696.png"
-            />
-          </a>
+  <!------------GOOGLE FONTS: MAJOR MONO DISPLAY---------->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet" />
+</head>
 
-          <a
-            class="navbar-brand nomelogo"
-            style="color: white; font-family: 'Major Mono Display', monospace"
-            href="index.html"
-            >Apoiando MulHeres</a
-          >
+<body class="px-0 mx-0">
+  <!---------------CABEÇALHO - MENU ----------------------->
+  <header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md fixed-top headercolor">
+      <div class="container py-2">
+        <a href="index.html">
+          <img class="logoHeader" src="https://cdn-icons-png.flaticon.com/512/120/120696.png" />
+        </a>
 
-          <button
-            class="navbar-toggler bg-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <a class="navbar-brand nomelogo" style="color: white; font-family: 'Major Mono Display', monospace"
+          href="index.html">Apoiando MulHeres</a>
 
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link navItemhvr" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemhvr" href="about.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemhvr" href="donation.html">Apoie</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemhvr" href="#contact">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemhvr" href="login.html">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-----------------------------------CARROSSEL---------------------------->
-    <section class="mainConfig px-0 mx-0">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div
-            class="carousel-item active"
-            style="
-              background-image: url('mulher-m.jpg');
-              background-position: center;
-            "
-          >
-            <div class="carousel-caption">
-              <h5 class="h5Carousel">
-                Brasil teve um estupro a cada 10 minutos e um feminicídio a cada
-                7 horas em 2021
-              </h5>
-            </div>
-          </div>
-          <div
-            class="carousel-item"
-            style="
-              background-image: url('violencia-domestica-feminicidio-1549028090053_v2_4x3.jpg');
-              background-position: center;
-            "
-          >
-            <div class="carousel-caption">
-              <h5 class="h5Carousel">
-                Violência contra a mulher fez mais de 16 mil vítimas em 2021
-              </h5>
-            </div>
-          </div>
-          <div
-            class="carousel-item"
-            style="
-              background-image: url('carrosselmao.jpg');
-              background-position: center;
-            "
-          >
-            <div class="carousel-caption">
-              <h5 class="h5Carousel">
-                São Paulo teve aumento de 27% de registros em comparação entre os anos de 2020 e 2021 e chegou a 929 eventos monitorados: 157 feminicídios,
-                501 agressões e tentativas de feminicídios e 97 estupros.
-              </h5>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link navItemhvr" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItemhvr" href="about.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItemhvr" href="donation.html">Apoie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItemhvr" href="#contact">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navItemhvr" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <!----------------------------------SECTION 1 - SOBRE------------------------------->
-
-    <section class="SectionSobre px-0 mx-0">
-      <h1
-        style="
-          font-family: 'Major Mono Display', monospace;
-          margin-top: 30px;
-          padding: 20px 0;
-        "
-      >
-        Apoiando MulHeres
-      </h1>
-      <h3 style="font-family: Arial, Helvetica, sans-serif">Sobre</h3>
-
-      <div class="divSobre img-container" data-anime="left">
-        <div>
-          <img class="imgSobre" src="img1.jpg"/>
+  <!-----------------------------------CARROSSEL---------------------------->
+  <section class="mainConfig px-0 mx-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="
+              background-image: url('./img/mulher-m.jpg');
+              background-position: center;
+            ">
+          <div class="carousel-caption">
+            <h5 class="h5Carousel">
+              Brasil teve um estupro a cada 10 minutos e um feminicídio a cada
+              7 horas em 2021
+            </h5>
+          </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-        
-
-        <div>
-          <h4>Violência contra Mulher</h4>
-          <p>
-            A violência contra as mulheres se manifesta de diversas formas. De
-            fato, o próprio conceito definido na <a href="http://www.cidh.org/basicos/portugues/m.belem.do.para.htm" target="_blank" alt="linksitelei" title="Convenção de Belém do Pará">Convenção de Belém do Pará
-            (1994)</a>  aponta para esta amplitude, definindo violência contra as
-            mulheres como “qualquer ação ou conduta, baseada no gênero, que
-            cause morte, dano ou sofrimento físico, sexual ou psicológico à
-            mulher, tanto no âmbito público como no privado” (Art. 1°). Além das
-            violações aos direitos das mulheres e a sua integridade física e
-            psicológica, a violência impacta também no desenvolvimento social e
-            econômico de um país. <br />
-            <br />
-
-            Um dos instrumentos mais importantes para o enfrentamento da
-            violência doméstica e familiar contra as mulheres é a <a href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm" target="_blank" title="Lei Maria da Penha 11.340/2006">Lei Maria da
-            Penha – Lei nº 11.340/2006.</a>  Esta lei, além de definir e tipificar as
-            formas de violência contra as mulheres (física, psicológica, sexual,
-            patrimonial e moral), também prevê a criação de serviços
-            especializados, como os que integram a Rede de Enfrentamento à
-            Violência contra a Mulher, compostos por instituições de segurança
-            pública, justiça, saúde, e da assistência social.
-          </p>
-
-          <div class="botaoenviar">
-            <a
-              href="https://www.mpsc.mp.br/campanhas/ligue-180"
-              target="_blank"
-            >
-              <button class="learn-more">
-                <span class="circle" aria-hidden="true">
-                  <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">LIGUE 180!</span>
-              </button></a
-            >
+        <div class="carousel-item" style="
+              background-image: url('./img/violencia-domestica-feminicidio-1549028090053_v2_4x3.jpg');
+              background-position: center;
+            ">
+          <div class="carousel-caption">
+            <h5 class="h5Carousel">
+              Violência contra a mulher fez mais de 16 mil vítimas em 2021
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item" style="
+              background-image: url('./img/carrosselmao.jpg');
+              background-position: center;
+            ">
+          <div class="carousel-caption">
+            <h5 class="h5Carousel">
+              São Paulo teve aumento de 27% de registros em comparação entre os anos de 2020 e 2021 e chegou a 929
+              eventos monitorados: 157 feminicídios,
+              501 agressões e tentativas de feminicídios e 97 estupros.
+            </h5>
           </div>
         </div>
       </div>
-    </section>
-
-    <!----------------------------SECTION 2 - ------------------->
-
-    <div class="divSection3">
-      <section class="SectionTiposDeAbuso px-0 mx-0">
-        <h3 data-anime="bottom">
-          A importância de identificar os tipos de agressão:
-        </h3>
-
-        <div class="divAbusos">
-          <div class="item-box" data-anime="left">
-            <img class="imgbox " src="pexels-kat-smith-568021.jpg" />
-            <h3>ABUSO FÍSICO</h3>
-            <p>
-              Abuso físico é o abuso que envolve contacto físico com a intenção
-              de infligir medo, dor, outro tipo de sofrimento físico ou lesões
-              corporais. As dinâmicas de abusos físicos no contexto familiar são
-              muitas vezes complexas. A violência física pode ser o culminar de
-              outros tipos de comportamento abusivo, como ameaças, intimidação e
-              limitação da auto-determinação da vítima através do isolamento
-              forçado, manipulação e outras limitações da liberdade pessoal.
-            </p>
-          </div>
-
-          <div class="item-box" data-anime="bottom">
-            <img class="imgbox" src="img3.jpg" />
-            <h3>ABUSO SEXUAL</h3>
-            <p>
-              A Organização Mundial de Saúde define abuso sexual como qualquer
-              ato sexual, tentativa de obter um ato sexual, abordagens ou
-              comentários de cariz sexual indesejados ou tráfico sexual
-              direcionados contra determinada pessoa por meio de coerção.
-            </p>
-          </div>
-
-          <div class="item-box" data-anime="right">
-            <img class="imgbox" src="img4.jpg" />
-
-            <h3>ABUSO PSICOLÓGICO</h3>
-            <p>
-              Abuso psicológico ou abuso emocional é um padrão de comportamento
-              com o objetivo de ameaçar, intimidar, desumanizar ou
-              sistematicamente debilitar a auto-estima de outra pessoa. A
-              Convenção do Conselho da Europa para a Prevenção e o Combate à
-              Violência Contra as Mulheres e a Violência Doméstica define
-              violência psicológica como a intenção de lesar gravemente a
-              integridade psicológica de uma pessoa por meio de coação ou
-              ameaças
-            </p>
-          </div>
-        </div>
-      </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </section>
 
-    <!-----------------------------SECTION 3 - GRAFICOS -------------------------->
+  <!----------------------------------SECTION 1 - SOBRE------------------------------->
 
-    <section class="SectionSobre px-0 mx-0">
-      <h1
-        style="
+  <section class="SectionSobre px-0 mx-0">
+    <h1 style="
           font-family: 'Major Mono Display', monospace;
           margin-top: 30px;
           padding: 20px 0;
-        "
-      >
-        Gráficos
-      </h1>
+        ">
+      Apoiando MulHeres
+    </h1>
+    <h3 style="font-family: Arial, Helvetica, sans-serif">Sobre</h3>
 
-      <div class="divSobre" data-anime="left">
-        <div class="img-container">
-          <img
-            class="imgSobre"
-            src="grafico 1.png"
-            alt="Gráfico sobre Feminicidio entre 2019-2021"
-          />
-        </div>
-
-        <div>
-          <h4>Vítimas de Feminicídio</h4>
-          <p>
-            Os dados mensais de feminicídios no Brasil entre 2019 e 2021 indicam
-            que houve um aumento dos casos entre os meses de fevereiro e maio de
-            2020, quando houve maior restrição nas medidas de isolamento social.
-            Em 2021, a tendência de casos seguiu muito próxima àquela verificada
-            no ano anterior à pandemia, com média mensal de 110 feminicídios.
-            <br />
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="SectionSobre px-0 mx-0">
-      <div class="divSobre2" data-anime="right">
-        <div>
-          <h4>Taxa de Feminicídio</h4>
-          <p>
-            Apenas 7 Estados registraram taxas de feminicídio abaixo da média
-            nacional no ano passado: São Paulo (0,6), Ceará (0,7), Amazonas
-            (0,8), Rio de Janeiro (0,9), Amapá (0,9), Rio Grande do Norte (1,1)
-            e Bahia (1,1). Estes dados precisam ser interpretados com cautela,
-            na medida em que alguns estados ainda parecem registrar feminicídios
-            de forma precária, como é o caso do Ceará, estado em que 308
-            mulheres foram assassinadas no último ano, ou seja, apenas 10% do
-            total de mulheres vítimas de homicídio foi enquadrado na categoria
-            feminicídio.
-            <br />
-          </p>
-        </div>
-
-        <div class="img-container">
-          <img
-            class="imgSobre"
-            src="grafico 02 - taxa de feminicidio 2021.png"
-            alt="Gráfico sobre Feminicidio entre 2019-2021"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="SectionSobre px-0 mx-0">
-      <div class="divSobre" data-anime="left">
-        <div class="img-container">
-          <img
-            class="imgSobre"
-            src="Grafico 4 - registros de vitimas de estupro.png"
-            alt="Gráfico sobre Feminicidio entre 2019-2021"
-          />
-        </div>
-
-        <div>
-          <h4>Registros de Estupro</h4>
-          <p>
-            A análise dos registros mensais de estupro e estupro de vulnerável
-            indica forte queda dos registros nos primeiros meses da pandemia de
-            covid-19. Observa-se que o mês de abril de 2020 marca o menor número
-            de registros de estupro de mulheres em todo o período. Trata-se do
-            mês de intensificação das medidas de isolamento social na maior
-            parte dos estados brasileiros, o que sugere que a redução dos casos
-            está relacionada a uma maior dificuldade de acesso das mulheres às
-            delegacias para registro de Boletins de Ocorrência. Após abril de
-            2020, inicia- se a retomada nos casos de estupro registrados,
-            tendência que permanece em 2021.
-            <br />
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="SectionSobre px-0 mx-0">
-      <div class="divSobre2" data-anime="right">
-        <div>
-          <h4>Taxa de Feminicídio</h4>
-          <p>
-            A taxa média de estupros e estupros de vulneráveis foi de 51,8 para
-            cada 100 mil habitantes do sexo feminino no país. Em 12 estados a
-            taxa ficou acima da média nacional em 2021, sendo eles: Piauí
-            (56,7), Rio Grande do Sul (59,5), Pará (68,6), Goiás (71,8), Paraná
-            (85,4), Santa Catarina (90,0), Tocantins (90,5) e Mato Grosso
-            (97,4). Os Estados de Rondônia (102,3), Amapá (107,7), Mato Grosso
-            do Sul (129,7) e Roraima (154,6) apresentaram taxas superiores a 100
-            estupros para cada 100 mil mulheres.
-            <br />
-          </p>
-        </div>
-
-        <div class="img-container">
-          <img
-            class="imgSobre"
-            src="Grafico 5 - Taxa de estupro.png"
-            alt="Gráfico sobre Feminicidio entre 2019-2021"
-          />
-        </div>
-      </div>
-    </section>
-    <!------------------SECTION 4 CRIMES OCULTOS-------------->
-
-    <section class="SectionOutrosAssuntos px-0 mx-0">
-      <div data-anime="bottom">
-        <h3>ocultos da sociedade</h3>
-        <h5>Os Crimes Invisíveis</h5>
+    <div class="divSobre img-container" data-anime="left">
+      <div>
+        <img class="imgSobre" src="./img/img1.jpg" />
       </div>
 
-      <div class="divAssuntos">
-        <div class="divCard1">
-          <div>
-            <img
-              class="imgCasamentoInfantil"
-              src="casament-crianca.jpg"
-              data-anime="left"
-            />
-          </div>
 
-          <div class="divInfoCards" data-anime="bottom">
-            <h3>casamento infantil</h3>
 
-            <p class="pCards">
-              No Brasil, essa realidade é alarmante: 26% das mulheres
-              brasileiras casaram-se ou foram​ viver com seus parceiros antes de
-              completar 18 anos – os dados são do estudo Perfil do Casamento
-              Infantil e Uniões Precoces, do Fundo das Nações Unidas para
-              aInfância (Unicef). Com esse número, o Brasil fica na 4ª posição
-              no ranking mundial de países com maior ocorrência de casamento
-              infantil. Quando considerado o mundo todo, a estimativa é de que,
-              pelomenos, 7,5 milhões de meninas se casam todos os anos antes de
-              atingirem os 18 anos, segundo o Unicef. O primeiro lugar no
-              ranking mundial é a Índia (com 26.610.000 casamentos); seguido
-              pelo Bangladesh (3.931.000 ); Nigéria (3.306.000) e em 4º,o
-              Brasil.
-            </p>
-          </div>
-        </div>
+      <div>
+        <h4>Violência contra Mulher</h4>
+        <p>
+          A violência contra as mulheres se manifesta de diversas formas. De
+          fato, o próprio conceito definido na <a href="http://www.cidh.org/basicos/portugues/m.belem.do.para.htm"
+            target="_blank" alt="linksitelei" title="Convenção de Belém do Pará">Convenção de Belém do Pará
+            (1994)</a> aponta para esta amplitude, definindo violência contra as
+          mulheres como “qualquer ação ou conduta, baseada no gênero, que
+          cause morte, dano ou sofrimento físico, sexual ou psicológico à
+          mulher, tanto no âmbito público como no privado” (Art. 1°). Além das
+          violações aos direitos das mulheres e a sua integridade física e
+          psicológica, a violência impacta também no desenvolvimento social e
+          econômico de um país. <br />
+          <br />
 
-        <div class="divCard2">
-          <div class="divInfoCards" data-anime="bottom">
-            <h3>tráfico de MulHeres</h3>
-
-            <p class="pCards">
-              O Tráfico de mulheres é um crime invisível, silencioso, oculto sob
-              o véu de um submundo que inclui tráfico de drogas, de órgãos e
-              pele, de armas e de pessoas para diversos fins, o trabalho ou
-              serviços forçados, a servidão, a escravidão, a remoção de órgãos
-              ou o casamento servil, e a exploração sexual, onde a vítima em sua
-              maioria, é a mulher.
-            </p>
-            <p class="pCards">
-              A fundação francesa Scelles, que luta contra a exploração sexual,
-              divulgou que há cerca de 42 milhões de pessoas em situação de
-              prostituição no mundo. 75% dessas são mulheres com idade entre 13
-              e 25 anos. O relatório da OIT (Organização Internacional do
-              Trabalho) sobre o assunto acrescenta que são de classes populares,
-              apresentam baixa escolaridade, habitam em espaços urbanos
-              periféricos com carência de saneamento, transporte (dentre outros
-              bens sociais comunitários), moram com familiares, têm filhos e
-              exercem atividades laborais com baixa remuneração.
-            </p>
-          </div>
-
-          <div>
-            <img
-              class="imgTrafMulheres"
-              src="1-tráfico-humano.jpg"
-              data-anime="right"
-            />
-          </div>
-        </div>
-
-        <div class="divCard3">
-          <div>
-            <img
-              class="imgCrimesVirtuais"
-              src="crime-virtual.jfif"
-              data-anime="left"
-            />
-          </div>
-
-          <div class="divInfoCards" data-anime="bottom">
-            <h3>crimes Virtuais</h3>
-            <p class="pCards">
-              A ameaça de vazar fotos e vídeos pessoais não vem apenas de
-              criminosos da internet. A equipe encontrou mulheres que foram
-              chantageadas por antigos parceiros — crime conhecido como
-              pornografia de vingança. De acordo com a Safernet, organização que
-              atua no combate a crimes cibernéticos, 69% das vítimas de
-              chantagem que envolve conteúdo íntimo são mulheres ou meninas
-              adolescentes.
-            </p>
-            <p class="pCards">
-              Em 2013, quando duas jovens cometeram suicídio após descobrirem
-              que imagens íntimas foram divulgadas pelas redes sociais e por
-              meio de aplicativos como o WhatsApp, o Brasil ampliou a
-              compreensão de que, no caso de crimes virtuais contra a mulher, o
-              ambiente é digital, mas as consequências são reais.
-            </p>
-          </div>
-        </div>
+          Um dos instrumentos mais importantes para o enfrentamento da
+          violência doméstica e familiar contra as mulheres é a <a
+            href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm" target="_blank"
+            title="Lei Maria da Penha 11.340/2006">Lei Maria da
+            Penha – Lei nº 11.340/2006.</a> Esta lei, além de definir e tipificar as
+          formas de violência contra as mulheres (física, psicológica, sexual,
+          patrimonial e moral), também prevê a criação de serviços
+          especializados, como os que integram a Rede de Enfrentamento à
+          Violência contra a Mulher, compostos por instituições de segurança
+          pública, justiça, saúde, e da assistência social.
+        </p>
 
         <div class="botaoenviar">
-          <a
-            href="https://www.mulhersegura.org/preciso-de-ajuda/ligue-180-central-de-atendimento-a-mulher"
-            target="_blank"
-          >
+          <a href="https://www.mpsc.mp.br/campanhas/ligue-180" target="_blank">
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
               </span>
-              <span class="button-text">DENUNCIE</span>
-            </button></a
-          >
+              <span class="button-text">LIGUE 180!</span>
+            </button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------SECTION 2 - ------------------->
+
+  <div class="divSection3">
+    <section class="SectionTiposDeAbuso px-0 mx-0">
+      <h3 data-anime="bottom">
+        A importância de identificar os tipos de agressão:
+      </h3>
+
+      <div class="divAbusos">
+        <div class="item-box" data-anime="left">
+          <img class="imgbox " src="./img/pexels-kat-smith-568021.jpg" />
+          <h3>ABUSO FÍSICO</h3>
+          <p>
+            Abuso físico é o abuso que envolve contacto físico com a intenção
+            de infligir medo, dor, outro tipo de sofrimento físico ou lesões
+            corporais. As dinâmicas de abusos físicos no contexto familiar são
+            muitas vezes complexas. A violência física pode ser o culminar de
+            outros tipos de comportamento abusivo, como ameaças, intimidação e
+            limitação da auto-determinação da vítima através do isolamento
+            forçado, manipulação e outras limitações da liberdade pessoal.
+          </p>
+        </div>
+
+        <div class="item-box" data-anime="bottom">
+          <img class="imgbox" src="./img/img3.jpg" />
+          <h3>ABUSO SEXUAL</h3>
+          <p>
+            A Organização Mundial de Saúde define abuso sexual como qualquer
+            ato sexual, tentativa de obter um ato sexual, abordagens ou
+            comentários de cariz sexual indesejados ou tráfico sexual
+            direcionados contra determinada pessoa por meio de coerção.
+          </p>
+        </div>
+
+        <div class="item-box" data-anime="right">
+          <img class="imgbox" src="./img/img4.jpg" />
+
+          <h3>ABUSO PSICOLÓGICO</h3>
+          <p>
+            Abuso psicológico ou abuso emocional é um padrão de comportamento
+            com o objetivo de ameaçar, intimidar, desumanizar ou
+            sistematicamente debilitar a auto-estima de outra pessoa. A
+            Convenção do Conselho da Europa para a Prevenção e o Combate à
+            Violência Contra as Mulheres e a Violência Doméstica define
+            violência psicológica como a intenção de lesar gravemente a
+            integridade psicológica de uma pessoa por meio de coação ou
+            ameaças
+          </p>
         </div>
       </div>
     </section>
+  </div>
 
-    <!---------------------- FOOTER ------------->
-    <footer class="w-100 py-4 flex-shrink-0 px-0 mx-0" id="contact">
-      <div class="container-fluid py-4 px-0 mx-0">
-        <div class="row gy-4 gx-5 px-0 mx-0">
-          <div class="col-md-3 col-md-6 px-0 mx-0">
-            <a href="index.html"
-              ><h6
-                class="h6 text-white"
-                style="
+  <!-----------------------------SECTION 3 - GRAFICOS -------------------------->
+
+  <section class="SectionSobre px-0 mx-0">
+    <h1 style="
+          font-family: 'Major Mono Display', monospace;
+          margin-top: 30px;
+          padding: 20px 0;
+        ">
+      Gráficos
+    </h1>
+
+    <div class="divSobre" data-anime="left">
+      <div class="img-container">
+        <img class="imgSobre" src="./img/grafico 1.png" alt="Gráfico sobre Feminicidio entre 2019-2021" />
+      </div>
+
+      <div>
+        <h4>Vítimas de Feminicídio</h4>
+        <p>
+          Os dados mensais de feminicídios no Brasil entre 2019 e 2021 indicam
+          que houve um aumento dos casos entre os meses de fevereiro e maio de
+          2020, quando houve maior restrição nas medidas de isolamento social.
+          Em 2021, a tendência de casos seguiu muito próxima àquela verificada
+          no ano anterior à pandemia, com média mensal de 110 feminicídios.
+          <br />
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionSobre px-0 mx-0">
+    <div class="divSobre2" data-anime="right">
+      <div>
+        <h4>Taxa de Feminicídio</h4>
+        <p>
+          Apenas 7 Estados registraram taxas de feminicídio abaixo da média
+          nacional no ano passado: São Paulo (0,6), Ceará (0,7), Amazonas
+          (0,8), Rio de Janeiro (0,9), Amapá (0,9), Rio Grande do Norte (1,1)
+          e Bahia (1,1). Estes dados precisam ser interpretados com cautela,
+          na medida em que alguns estados ainda parecem registrar feminicídios
+          de forma precária, como é o caso do Ceará, estado em que 308
+          mulheres foram assassinadas no último ano, ou seja, apenas 10% do
+          total de mulheres vítimas de homicídio foi enquadrado na categoria
+          feminicídio.
+          <br />
+        </p>
+      </div>
+
+      <div class="img-container">
+        <img class="imgSobre" src="./img/grafico 02 - taxa de feminicidio 2021.png"
+          alt="Gráfico sobre Feminicidio entre 2019-2021" />
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionSobre px-0 mx-0">
+    <div class="divSobre" data-anime="left">
+      <div class="img-container">
+        <img class="imgSobre" src="./img/Grafico 4 - registros de vitimas de estupro.png"
+          alt="Gráfico sobre Feminicidio entre 2019-2021" />
+      </div>
+
+      <div>
+        <h4>Registros de Estupro</h4>
+        <p>
+          A análise dos registros mensais de estupro e estupro de vulnerável
+          indica forte queda dos registros nos primeiros meses da pandemia de
+          covid-19. Observa-se que o mês de abril de 2020 marca o menor número
+          de registros de estupro de mulheres em todo o período. Trata-se do
+          mês de intensificação das medidas de isolamento social na maior
+          parte dos estados brasileiros, o que sugere que a redução dos casos
+          está relacionada a uma maior dificuldade de acesso das mulheres às
+          delegacias para registro de Boletins de Ocorrência. Após abril de
+          2020, inicia- se a retomada nos casos de estupro registrados,
+          tendência que permanece em 2021.
+          <br />
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionSobre px-0 mx-0">
+    <div class="divSobre2" data-anime="right">
+      <div>
+        <h4>Taxa de Feminicídio</h4>
+        <p>
+          A taxa média de estupros e estupros de vulneráveis foi de 51,8 para
+          cada 100 mil habitantes do sexo feminino no país. Em 12 estados a
+          taxa ficou acima da média nacional em 2021, sendo eles: Piauí
+          (56,7), Rio Grande do Sul (59,5), Pará (68,6), Goiás (71,8), Paraná
+          (85,4), Santa Catarina (90,0), Tocantins (90,5) e Mato Grosso
+          (97,4). Os Estados de Rondônia (102,3), Amapá (107,7), Mato Grosso
+          do Sul (129,7) e Roraima (154,6) apresentaram taxas superiores a 100
+          estupros para cada 100 mil mulheres.
+          <br />
+        </p>
+      </div>
+
+      <div class="img-container">
+        <img class="imgSobre" src="./img/Grafico 5 - Taxa de estupro.png"
+          alt="Gráfico sobre Feminicidio entre 2019-2021" />
+      </div>
+    </div>
+  </section>
+  <!------------------SECTION 4 CRIMES OCULTOS-------------->
+
+  <section class="SectionOutrosAssuntos px-0 mx-0">
+    <div data-anime="bottom">
+      <h3>ocultos da sociedade</h3>
+      <h5>Os Crimes Invisíveis</h5>
+    </div>
+
+    <div class="divAssuntos">
+      <div class="divCard1">
+        <div>
+          <img class="imgCasamentoInfantil" src="./img/casament-crianca.jpg" data-anime="left" />
+        </div>
+
+        <div class="divInfoCards" data-anime="bottom">
+          <h3>casamento infantil</h3>
+
+          <p class="pCards">
+            No Brasil, essa realidade é alarmante: 26% das mulheres
+            brasileiras casaram-se ou foram​ viver com seus parceiros antes de
+            completar 18 anos – os dados são do estudo Perfil do Casamento
+            Infantil e Uniões Precoces, do Fundo das Nações Unidas para
+            aInfância (Unicef). Com esse número, o Brasil fica na 4ª posição
+            no ranking mundial de países com maior ocorrência de casamento
+            infantil. Quando considerado o mundo todo, a estimativa é de que,
+            pelomenos, 7,5 milhões de meninas se casam todos os anos antes de
+            atingirem os 18 anos, segundo o Unicef. O primeiro lugar no
+            ranking mundial é a Índia (com 26.610.000 casamentos); seguido
+            pelo Bangladesh (3.931.000 ); Nigéria (3.306.000) e em 4º,o
+            Brasil.
+          </p>
+        </div>
+      </div>
+
+      <div class="divCard2">
+        <div class="divInfoCards" data-anime="bottom">
+          <h3>tráfico de MulHeres</h3>
+
+          <p class="pCards">
+            O Tráfico de mulheres é um crime invisível, silencioso, oculto sob
+            o véu de um submundo que inclui tráfico de drogas, de órgãos e
+            pele, de armas e de pessoas para diversos fins, o trabalho ou
+            serviços forçados, a servidão, a escravidão, a remoção de órgãos
+            ou o casamento servil, e a exploração sexual, onde a vítima em sua
+            maioria, é a mulher.
+          </p>
+          <p class="pCards">
+            A fundação francesa Scelles, que luta contra a exploração sexual,
+            divulgou que há cerca de 42 milhões de pessoas em situação de
+            prostituição no mundo. 75% dessas são mulheres com idade entre 13
+            e 25 anos. O relatório da OIT (Organização Internacional do
+            Trabalho) sobre o assunto acrescenta que são de classes populares,
+            apresentam baixa escolaridade, habitam em espaços urbanos
+            periféricos com carência de saneamento, transporte (dentre outros
+            bens sociais comunitários), moram com familiares, têm filhos e
+            exercem atividades laborais com baixa remuneração.
+          </p>
+        </div>
+
+        <div>
+          <img class="imgTrafMulheres" src="./img/1-tráfico-humano.jpg" data-anime="right" />
+        </div>
+      </div>
+
+      <div class="divCard3">
+        <div>
+          <img class="imgCrimesVirtuais" src="./img/crime-virtual.jfif" data-anime="left" />
+        </div>
+
+        <div class="divInfoCards" data-anime="bottom">
+          <h3>crimes Virtuais</h3>
+          <p class="pCards">
+            A ameaça de vazar fotos e vídeos pessoais não vem apenas de
+            criminosos da internet. A equipe encontrou mulheres que foram
+            chantageadas por antigos parceiros — crime conhecido como
+            pornografia de vingança. De acordo com a Safernet, organização que
+            atua no combate a crimes cibernéticos, 69% das vítimas de
+            chantagem que envolve conteúdo íntimo são mulheres ou meninas
+            adolescentes.
+          </p>
+          <p class="pCards">
+            Em 2013, quando duas jovens cometeram suicídio após descobrirem
+            que imagens íntimas foram divulgadas pelas redes sociais e por
+            meio de aplicativos como o WhatsApp, o Brasil ampliou a
+            compreensão de que, no caso de crimes virtuais contra a mulher, o
+            ambiente é digital, mas as consequências são reais.
+          </p>
+        </div>
+      </div>
+
+      <div class="botaoenviar">
+        <a href="https://www.mulhersegura.org/preciso-de-ajuda/ligue-180-central-de-atendimento-a-mulher"
+          target="_blank">
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">DENUNCIE</span>
+          </button></a>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- FOOTER ------------->
+  <footer class="w-100 py-4 flex-shrink-0 px-0 mx-0" id="contact">
+    <div class="container-fluid py-4 px-0 mx-0">
+      <div class="row gy-4 gx-5 px-0 mx-0">
+        <div class="col-md-3 col-md-6 px-0 mx-0">
+          <a href="index.html">
+            <h6 class="h6 text-white" style="
                   font-family: 'Major Mono Display', monospace;
                   margin-left: 30px;
-                "
-              >
-                Apoiando MulHeres
-              </h6></a
-            >
+                ">
+              Apoiando MulHeres
+            </h6>
+          </a>
 
-            <p class="small" style="margin-left: 30px">
-              Transformando a vida de milhares de mulheres.
+          <p class="small" style="margin-left: 30px">
+            Transformando a vida de milhares de mulheres.
 
-              <br />
-              Você também pode! Denuncie! Ligue 180
-            </p>
-            <p class="small mb-0" style="margin-left: 30px">
-              &copy; Apoiando Mulheres. <br />
-              Todos os direitos reservados.
-              <br />
+            <br />
+            Você também pode! Denuncie! Ligue 180
+          </p>
+          <p class="small mb-0" style="margin-left: 30px">
+            &copy; Apoiando Mulheres. <br />
+            Todos os direitos reservados.
+            <br />
 
-              <a class="sitelink" href="index.html">apoiandomulheres.com.br</a>
-            </p>
-            <!------------------------------FACEBOOK------------------>
+            <a class="sitelink" href="index.html">apoiandomulheres.com.br</a>
+          </p>
+          <!------------------------------FACEBOOK------------------>
 
-            <div class="socialMediaLinks">
-              <a
-                href="https://www.facebook.com/hashtag/violenciadom%C3%A9stica"
-                class="links"
-                target="_blank"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16
-                  16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002
+          <div class="socialMediaLinks">
+            <a href="https://www.facebook.com/hashtag/violenciadom%C3%A9stica" class="links" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16
+                  16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002
                     3.603-.002 8.05c0 4.017 2.926 7.347 6.75
                     7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131
                     3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993
                     0-1.303.621-1.303 1.258v1.51h2.218l-.354
-                    2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                  />
-                </svg>
-              </a>
-              <!------------------------------INSTAGRAM------------------>
+                    2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+            </a>
+            <!------------------------------INSTAGRAM------------------>
 
-              <a
-                href="https://www.instagram.com/explore/tags/violenciadomestica/"
-                class="links"
-                target="_blank"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16
-                    16"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222
+            <a href="https://www.instagram.com/explore/tags/violenciadomestica/" class="links" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16
+                    16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222
                       2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42
                       2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0
                       8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372
@@ -639,28 +515,16 @@
                       1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27
                       1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0
                       0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0
-                      1 0-5.334z"
-                  />
-                </svg>
-              </a>
+                      1 0-5.334z" />
+              </svg>
+            </a>
 
-              <!---------------------TWITER------------------>
+            <!---------------------TWITER------------------>
 
-              <a
-                href="https://twitter.com/search?q=%23violenciadomestica&src=typed_query"
-                class="links"
-                target="_blank"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  fill="currentColor"
-                  class="bi bi-twitter"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14
+            <a href="https://twitter.com/search?q=%23violenciadomestica&src=typed_query" class="links" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14
                         0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658
                         0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533
                         6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325
@@ -669,27 +533,15 @@
                         2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0
                         1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0
                         0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0
-                        5.026 15z"
-                  />
-                </svg>
-              </a>
+                        5.026 15z" />
+              </svg>
+            </a>
 
-              <!------------------------YOUTUBE-------------------->
-              <a
-                href="https://www.youtube.com/results?search_query=violencia+domestica"
-                class="links"
-                target="_blank"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  fill="currentColor"
-                  class="bi bi-youtube"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8.051 1.999h.089c.822.003 4.987.033
+            <!------------------------YOUTUBE-------------------->
+            <a href="https://www.youtube.com/results?search_query=violencia+domestica" class="links" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-youtube"
+                viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033
                           6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22
                           1.402l.01.104.022.26.008.104c.065.914.073 1.77.074
                           1.957v.075c-.001.194-.01 1.108-.082
@@ -704,59 +556,51 @@
                           2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21
                           2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788
                           99.788 0 0 1 7.858 2h.193zM6.4
-                          5.209v4.818l4.157-2.408L6.4 5.209z"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <!--------------------------------LINKS RAPIDOS---------------------------------------------->
-          <div class="col-lg-2 col-md-6">
-            <h6 class="text-white mb-3">Links Rápidos</h6>
-            <ul class="list-unstyled text-muted">
-              <li><a class="navItemhvr" href="#">Home</a></li>
-              <li><a class="navItemhvr" href="about.html">Sobre</a></li>
-              <li><a class="navItemhvr" href="donation.html">Apoie</a></li>
-              <li><a class="navItemhvr" href="#contact">Contato</a></li>
-              <li><a class="navItemhvr" href="login.html">Login</a></li>
-            </ul>
-          </div>
-          <!----------------------------------------CONTATO--------------------------------------->
-          <div class="col-lg-4 col-md-6">
-            <h6 class="text-white mb-3">Contato</h6>
-            <p style="padding: 0; margin: 0">Tel: 0800 999 999</p>
-            <p>Email: apoiandomulheres.sc@gmail.com</p>
-            <p class="small">
-              Envie-nos uma mensagem!
-              <br />
-              Estamos aqui para te ouvir e te ajudar.
-            </p>
-            <form action="mailto: apoiandomulheres.sc@gmail.com" method="post">
-              <div class="input-group mb-3">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Escreva aqui sua mensagem"
-                  aria-label="Recipient's username"
-                  aria-describedby="button-addon2"
-                  maxlength="400"
-                />
-                 <button class="btn btn-primary" id="button-addon2" type="submit">
-                  <a href="mailto: apoiandomulheres.sc@gmail.com">Enviar</a>
-                </button>
-              </div>
-            </form>
+                          5.209v4.818l4.157-2.408L6.4 5.209z" />
+              </svg>
+            </a>
           </div>
         </div>
+        <!--------------------------------LINKS RAPIDOS---------------------------------------------->
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white mb-3">Links Rápidos</h6>
+          <ul class="list-unstyled text-muted">
+            <li><a class="navItemhvr" href="#">Home</a></li>
+            <li><a class="navItemhvr" href="about.html">Sobre</a></li>
+            <li><a class="navItemhvr" href="donation.html">Apoie</a></li>
+            <li><a class="navItemhvr" href="#contact">Contato</a></li>
+            <li><a class="navItemhvr" href="login.html">Login</a></li>
+          </ul>
+        </div>
+        <!----------------------------------------CONTATO--------------------------------------->
+        <div class="col-lg-4 col-md-6">
+          <h6 class="text-white mb-3">Contato</h6>
+          <p style="padding: 0; margin: 0">Tel: 0800 999 999</p>
+          <p>Email: apoiandomulheres.sc@gmail.com</p>
+          <p class="small">
+            Envie-nos uma mensagem!
+            <br />
+            Estamos aqui para te ouvir e te ajudar.
+          </p>
+          <form action="mailto: apoiandomulheres.sc@gmail.com" method="post">
+            <div class="input-group mb-3">
+              <input class="form-control" type="text" placeholder="Escreva aqui sua mensagem"
+                aria-label="Recipient's username" aria-describedby="button-addon2" maxlength="400" />
+              <button class="btn btn-primary" id="button-addon2" type="submit">
+                <a href="mailto: apoiandomulheres.sc@gmail.com">Enviar</a>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-------------------JSCRIPTS ------------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
+  <!-------------------JSCRIPTS ------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>

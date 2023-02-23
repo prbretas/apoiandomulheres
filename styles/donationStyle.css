@@ -24,11 +24,7 @@
   --button-border-login: rgb(160, 101, 147);
 }
 
-
-
 /******************ANIMAÇÕES********************/
-
-
 
 /*TRANSLATE 3D*/
 /*** Obs:
@@ -42,27 +38,27 @@
   transition: 0.3s;
 }
 
-[data-anime="left"]{
+[data-anime="left"] {
   transform: translate3d(-30px, 0, 0);
-  }
-  
-  
-  [data-anime="right"]{
-    transform: translate3d(10px, 0, 0);
-  }
-  
-  [data-anime="top"]{
-    transform: translate3d(0, -30px, 0);
-  }
-  
-  [data-anime="bottom"]{
-    transform: translate3d(0, 30px, 0);
-  }
+}
+
+
+[data-anime="right"] {
+  transform: translate3d(10px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -30px, 0);
+}
+
+[data-anime="bottom"] {
+  transform: translate3d(0, 30px, 0);
+}
 
 
 [data-anime].animate {
-opacity: 1;
-transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 
@@ -110,8 +106,6 @@ body {
 }
 
 /*********FOOTER ***************/
-
-
 .text-small {
   font-size: 0.9rem;
 }
@@ -142,64 +136,49 @@ footer {
   color: var(--text-color);
 }
 
-
-.socialMediaLinks{
-margin-top: 5px;
-margin-left: 30px;
-
-}
-
-
-
-.links{
-padding-right: 5px;
+.socialMediaLinks {
+  margin-top: 5px;
+  margin-left: 30px;
 
 }
 
-.links:hover{
-color: var(--hovertext-color);
-  
-  }
 
-  .sitelink{
-color: white;
-
-
-  }
-
-
-  .sitelink:hover{
-    color: var(--hovertext-color);
-    
-    
-      }
-
-.div1Footer{
-background-color: rgb(46, 129, 129);
-text-align: left;
-
-
+.links {
+  padding-right: 5px;
 
 }
 
-.div2Footer{
+.links:hover {
+  color: var(--hovertext-color);
+}
+
+.sitelink {
+  color: white;
+}
+
+.sitelink:hover {
+  color: var(--hovertext-color);
+}
+
+.div1Footer {
+  background-color: rgb(46, 129, 129);
+  text-align: left;
+}
+
+.div2Footer {
   background-color: rgb(63, 129, 46);
   text-align: center;
 
+}
+.div3Footer {
+  background-color: rgb(153, 182, 22);
+  text-align: right;
 
-  
-  }
+}
 
-  
-  .div3Footer{
-   background-color: rgb(153, 182, 22);
-   text-align: right;
- 
-   }
-  
-.inputFooter{
-width: 300px;
-font-size: 15px;
+.inputFooter {
+  width: 300px;
+  font-size: 15px;
 
 
 }
@@ -235,57 +214,29 @@ h1 {
   background-color: #f6f6f6;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head_bg {
-  border-color: rgb(45, 36, 49) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)
-    rgb(45, 36, 49);
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg {
+  border-color: rgb(45, 36, 49) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(45, 36, 49);
 }
+
 /********TITULO CARD PRICE CARDS******/
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head
-  span {
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span {
   color: #ffffff;
 
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .sign {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign {
   color: #414141;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .currency {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency {
   color: #414141;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .cent {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent {
   color: #414141;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .month {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month {
   color: #414141;
 }
 
@@ -297,6 +248,7 @@ h1 {
   color: #414141;
   font-size: 1rem;
 }
+
 #generic_price_table .generic_content .generic_feature_list ul li:hover {
   background-color: #e4e4e4;
   border-left: 5px solid #65588a;
@@ -307,46 +259,31 @@ h1 {
   color: #5e468b;
 }
 
-#generic_price_table
-  .generic_content.active
-  .generic_head_price
-  .generic_head_content
-  .head_bg,
-#generic_price_table
-  .generic_content:hover
-  .generic_head_price
-  .generic_head_content
-  .head_bg {
-  border-color: rgb(199, 127, 183) rgb(199, 127, 183) rgba(0, 0, 0, 0)
-    rgb(199, 127, 183);
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg {
+  border-color: rgb(199, 127, 183) rgb(199, 127, 183) rgba(0, 0, 0, 0) rgb(199, 127, 183);
   color: #fff;
-  
+
 }
+
 /*************HOVER TITULO PRICE CARDS**************/
-#generic_price_table
-  .generic_content:hover
-  .generic_head_price
-  .generic_head_content
-  .head
-  span,
-#generic_price_table
-  .generic_content.active
-  .generic_head_price
-  .generic_head_content
-  .head
-  span {
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span {
   color: rgb(0, 0, 0);
 }
+
 /************HOVER BOTAO CARDS****************/
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a {
   background-color: #331c3a;
   color: #fff;
 }
+
 #generic_price_table {
   margin: 50px 0 50px 0;
   font-family: 'Raleway', sans-serif;
 }
+
 .row .table {
   padding: 28px 0;
 }
@@ -363,39 +300,23 @@ h1 {
   margin: 0 0 20px 0;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content {
+#generic_price_table .generic_content .generic_head_price .generic_head_content {
   margin: 0 0 50px 0;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head_bg {
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg {
   border-style: solid;
   border-width: 90px 1411px 23px 399px;
   position: absolute;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head {
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head {
   padding-top: 40px;
   position: relative;
   z-index: 1;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head
-  span {
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 400;
@@ -409,20 +330,11 @@ h1 {
   padding: 0 0 20px;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price {
   display: block;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .sign {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign {
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 28px;
@@ -430,12 +342,7 @@ h1 {
   vertical-align: middle;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .currency {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency {
   font-family: 'Lato', sans-serif;
   font-size: 60px;
   font-weight: 300;
@@ -445,12 +352,7 @@ h1 {
   vertical-align: middle;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .price
-  .cent {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent {
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 24px;
@@ -458,11 +360,7 @@ h1 {
   vertical-align: bottom;
 }
 
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_price_tag
-  .month {
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -483,6 +381,7 @@ h1 {
   transition: all 0.3s ease-in-out 0s;
   font-size: 0.9rem;
 }
+
 #generic_price_table .generic_content .generic_feature_list ul li:hover {
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -490,9 +389,11 @@ h1 {
   -o-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table .generic_content .generic_feature_list ul li .fa {
   padding: 0 10px;
 }
+
 #generic_price_table .generic_content .generic_price_btn {
   margin: 20px 0 32px;
 }
@@ -514,28 +415,10 @@ h1 {
 
 #generic_price_table .generic_content,
 #generic_price_table .generic_content:hover,
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head_bg,
-#generic_price_table
-  .generic_content:hover
-  .generic_head_price
-  .generic_head_content
-  .head_bg,
-#generic_price_table
-  .generic_content
-  .generic_head_price
-  .generic_head_content
-  .head
-  h2,
-#generic_price_table
-  .generic_content:hover
-  .generic_head_price
-  .generic_head_content
-  .head
-  h2,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head h2,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head h2,
 #generic_price_table .generic_content .price,
 #generic_price_table .generic_content:hover .price,
 #generic_price_table .generic_content .generic_price_btn a,
@@ -546,14 +429,15 @@ h1 {
   -o-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
-@media (max-width: 320px) {
-}
+
+@media (max-width: 320px) {}
 
 @media (max-width: 767px) {
   #generic_price_table .generic_content {
     margin-bottom: 75px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   #generic_price_table .col-md-3 {
     float: left;
@@ -569,10 +453,11 @@ h1 {
     margin-bottom: 75px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-@media (min-width: 1200px) {
-}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
+
 #generic_price_table_home {
   font-family: 'Raleway', sans-serif;
 }
@@ -584,9 +469,11 @@ h1 {
   font-weight: 300;
   text-decoration: none;
 }
+
 .demo-pic {
   margin: 0 auto;
 }
+
 .demo-pic:hover {
   opacity: 0.7;
 }
@@ -597,47 +484,58 @@ h1 {
   list-style: none;
   display: table;
 }
+
 #generic_price_table_home li {
   float: left;
 }
-#generic_price_table_home li + li {
+
+#generic_price_table_home li+li {
   margin-left: 10px;
   padding-bottom: 10px;
 }
+
 #generic_price_table_home li a {
   display: block;
   width: 50px;
   height: 50px;
   font-size: 0px;
 }
+
 #generic_price_table_home .blue {
   background: #3498db;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .emerald {
   background: #2ecc71;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .grey {
   background: #7f8c8d;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .midnight {
   background: #34495e;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .orange {
   background: #e67e22;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .purple {
   background: #9b59b6;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .red {
   background: #e74c3c;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .turquoise {
   background: #1abc9c;
   transition: all 0.3s ease-in-out 0s;
@@ -657,11 +555,13 @@ h1 {
   border-top-right-radius: 50px;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #generic_price_table_home .divider {
   border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
   padding: 20px;
 }
+
 #generic_price_table_home .divider span {
   width: 100%;
   display: table;
@@ -670,6 +570,7 @@ h1 {
   margin: 50px auto;
   line-height: 2px;
 }
+
 #generic_price_table_home .itemname {
   text-align: center;
   font-size: 50px;
@@ -679,6 +580,7 @@ h1 {
   text-decoration: none;
   font-weight: 300;
 }
+
 #generic_price_table_home .itemnametext {
   text-align: center;
   font-size: 20px;
@@ -686,25 +588,28 @@ h1 {
   text-transform: uppercase;
   display: inline-block;
 }
+
 #generic_price_table_home .footerPrice {
   padding: 40px 0;
-  
+
 }
 
 
-.SectionPriceCards{
-margin-bottom: 30px;
+.SectionPriceCards {
+  margin-bottom: 30px;
 
 }
 
 .price-heading {
   text-align: center;
 }
+
 .price-heading h1 {
   color: rgb(255, 255, 255);
   margin: 0;
   padding: 0 0 50px 0;
 }
+
 .demo-button {
   background-color: #333333;
   color: #ffffff;
@@ -726,7 +631,7 @@ margin-bottom: 30px;
 
 
 .bottom_resultado_titulo {
-   color: #ffffff;
+  color: #ffffff;
   display: table;
   font-size: 20px;
   margin: 0 auto 5px;
@@ -738,31 +643,24 @@ margin-bottom: 30px;
 
 .bottom_resultado_RS {
   color: #ffffff;
- display: table;
- font-size: 28px;
- margin: 0 auto;
- padding: 0 auto ;
- text-align: center;
- text-transform: uppercase;
- width: max-content;
+  display: table;
+  font-size: 28px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: max-content;
 }
 
 .bottom_resultado {
   color: #ffffff;
- display: table;
- font-size: 28px;
- margin: 0 auto;
- padding: 0 auto ;
- text-align: center;
- text-transform: uppercase;
+  display: table;
+  font-size: 28px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
 }
-
-
-
-
-
-
-
 
 .demo-button:hover {
   background-color: #666;
@@ -827,11 +725,6 @@ margin-bottom: 30px;
   flex-wrap: wrap-reverse;
   background-color: rgb(255, 255, 255);
 }
-
-
-
-
-
 
 .divInfoCards h3 {
   text-align: center;
@@ -965,5 +858,3 @@ button:hover .button-text {
   text-align: center;
   padding-bottom: 40px;
 }
-
-
