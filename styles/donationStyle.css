@@ -628,14 +628,18 @@ h1 {
 }
 
 
+#footerPrice{
+  background-color: var(--maincolor);
+  padding: 25px 0;
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
 
 
 .bottom_resultado_titulo {
   color: #ffffff;
   display: table;
   font-size: 20px;
-  margin: 0 auto 5px;
-  padding: 5px auto;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -645,11 +649,20 @@ h1 {
   color: #ffffff;
   display: table;
   font-size: 28px;
-  margin: 0 auto;
-  padding: 0 auto;
   text-align: center;
   text-transform: uppercase;
   width: max-content;
+}
+
+#ValorArrecadado{
+  font-size : 3rem;
+  font-weight:bold;
+}
+
+#ValorArrecadado:hover{
+filter: drop-shadow(0 0 3px rgb(177, 177, 177));
+transition: 1s;
+
 }
 
 .bottom_resultado {

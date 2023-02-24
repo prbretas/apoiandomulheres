@@ -247,7 +247,7 @@
                 <!--BUTTON START-->
                 <button class="generic_price_btn clearfix" id="button_contador" data-toggle="popover"
                   onclick="aumentarIrme()">
-                  <a class="">
+                  <a href="https://doare.org/irme" target="_blank" class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
@@ -261,23 +261,18 @@
 
               <!--PRICE CONTENT START-->
               <div class="generic_content clearfix divCard">
-
                 <!--HEAD PRICE DETAIL START-->
                 <div class="generic_head_price clearfix">
-
                   <!--HEAD CONTENT START-->
                   <div class="generic_head_content clearfix">
-
                     <!--HEAD START-->
                     <div class="head_bg"></div>
                     <div class="head">
                       <span style="font-size: 1.5rem;">Elas no Poder</span>
                     </div>
                     <!--//HEAD END-->
-
                   </div>
                   <!--//HEAD CONTENT END-->
-
                   <!--PRICE START-->
                   <div class="generic_price_tag clearfix">
                     <span class="price">
@@ -287,10 +282,8 @@
                     </span>
                   </div>
                   <!--//PRICE END-->
-
                 </div>
                 <!--//HEAD PRICE DETAIL END-->
-
                 <!--FEATURE LIST START-->
                 <div class="generic_feature_list">
                   <ul>
@@ -302,44 +295,35 @@
                   </ul>
                 </div>
                 <!--//FEATURE LIST END-->
-
                 <!--BUTTON START-->
                 <button class="generic_price_btn clearfix" id="button_contador" data-toggle="popover"
                   onclick="aumentarElasNoPoder() ">
-                  <a class="">
+                  <a href="https://elasnopoder.org/doe-para-elas/"
+                  target="_blank"
+                  class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
                 <!--//BUTTON END-->
-
               </div>
               <!--//PRICE CONTENT END-->
-
             </div>
-
-
             <!----------------------------PRICE 3--------------------------------->
             <div class="col-md-4" data-anime="right">
-
               <!--PRICE CONTENT START-->
               <div class="generic_content clearfix divCard">
-
                 <!--HEAD PRICE DETAIL START-->
                 <div class="generic_head_price clearfix">
-
                   <!--HEAD CONTENT START-->
                   <div class="generic_head_content clearfix">
-
                     <!--HEAD START-->
                     <div class="head_bg"></div>
                     <div class="head">
                       <span style="font-size: 1.2rem;">Associação Fala MulHer</span>
                     </div>
                     <!--//HEAD END-->
-
                   </div>
                   <!--//HEAD CONTENT END-->
-
                   <!--PRICE START-->
                   <div class="generic_price_tag clearfix">
                     <span class="price">
@@ -349,10 +333,8 @@
                     </span>
                   </div>
                   <!--//PRICE END-->
-
                 </div>
                 <!--//HEAD PRICE DETAIL END-->
-
                 <!--FEATURE LIST START-->
                 <div class="generic_feature_list">
                   <ul>
@@ -369,7 +351,9 @@
                 <!--BUTTON START-->
                 <button class="generic_price_btn clearfix" id="button_contador" data-toggle="popover"
                   onclick="aumentarFalaMulher()">
-                  <a class="">
+                  <a href="https://paybox.doare.org/paybox?lang=br&amount=50&currency=BRL&values=20,50,100,150,200&orgId=0fb2a8d9-dd0e-11e8-9b70-06eee06257ea&subscribe=&subscriptionAmount=50&showSubscription=1&referer=https:%2F%2Fapp.doare.org%2Fbr%2Fdoacao%2F5350%2Fassociacao-fala-mulher"
+                  target="_blank"
+                  class="">
                     Doe Agora Mesmo!
                   </a>
                 </button>
@@ -382,10 +366,10 @@
         </div>
       </section>
       <!-------------------------VALOR ARRECADADO----------------------------->
-      <footer class="footerPrice">
+      <div id="footerPrice" data-anime="bottom">
         <p class="bottom_resultado_titulo"> Valor Arrecadado em Doações</p>
         <p class="bottom_resultado" id="ValorArrecadado">R$</p>
-      </footer>
+      </div>
     </div>
   </section>
   <!---------------------- FOOTER ------------->
@@ -545,18 +529,17 @@
     crossorigin="anonymous"></script>
   <script src="./scripts/donation.js"></script>
 
-  <script>
+  <!-- SCRIPT POP-OVER DOAÇÕES PIX
+      <script>
     $(document).ready(function () {
       $('[data-toggle="popover"]').popover({
         title: 'Exemplo de direcionamento PIX',
         html: true,
-        content: '<a href="./PIX.png" target="_blank"><img width="250px"src="./img/PIX 376 x 315.png" title="PIX - PICPAY"></img></a>'
+        content: '<a><img width="250px"src="./img/PIX 376 x 315.png" title="PIX - PICPAY"></img></a>'
       });
     });
   </script>
+  -->
+
 </body>
-
-
-
-
 </html>

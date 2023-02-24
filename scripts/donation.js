@@ -1,5 +1,5 @@
 //Estado da aplicação
-let numero = 5280.54;
+let numero = 8735.98;
 
 //alteradores de estado
 function aumentarIrme() {
@@ -25,7 +25,6 @@ function aumentarFalaMulher() {
 function mostrarNaTela() {
   const ValorArrecadado = document.getElementById("ValorArrecadado");
   ValorArrecadado.innerText = `R$ ${numero}`;
-
 }
 
 // iniciar
